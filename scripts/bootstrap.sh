@@ -9,7 +9,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 
 # Install project dependencies
-pip install -r $PROJECT_ROOT/app/requirements-dev.txt
+pip install -r $PROJECT_ROOT/requirements-dev.txt
 
 # Install the pre-commit hook
 pre-commit install
