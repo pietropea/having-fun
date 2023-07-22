@@ -44,11 +44,11 @@ class DataSource:
         if not is_valid_iso3(iso3):
             raise InvalidISO3Exception
 
-        # TODO: add is date_end after date_start date
+        # TODO: add validation if date_end after date_start date
         # if is_date_after(date_end, date_start):
         #     raise DateEndBeforeDateStartException
 
-        # TODO: add is range too big validation
+        # TODO: add validatoin if range too big validation
 
         return f"{config.THIRD_PARTY_API_BASE_URL}/v1/foodsecurity/country/{iso3}/region?date_start={date_start}&date_end={date_end}"
 

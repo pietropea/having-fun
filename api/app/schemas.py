@@ -1,6 +1,6 @@
 from pydantic import BaseModel, RootModel
 from enum import Enum
-from typing import Dict
+from typing import Dict, Optional
 
 
 class AllowedCountriesByISO3(Enum):
@@ -13,7 +13,7 @@ class AllowedCountriesByISO3(Enum):
 
 
 class MetricDataObject(BaseModel):
-    people: float
+    people: int
     prevalence: float
 
 
@@ -33,7 +33,7 @@ class RegionDataObject(BaseModel):
     Model that represent the Third-party API sub-national (administrative level 1 ADM1 areas) model
     """
 
-    id: str
+    id: int
     name: str
     population: int
 
@@ -46,6 +46,7 @@ class MetricsDataObject(BaseModel):
     fcs: MetricDataObject
     rcsi: MetricDataObject
     marketAccess: MetricDataObject
+    healthAccess: Optional[MetricDataObject] = None
 
 
 class DataObject(BaseModel):
@@ -56,7 +57,7 @@ class DataObject(BaseModel):
     country: CountryDataObject
     region: RegionDataObject
     date: str
-    dateType: str
+    dataType: str
     metrics: MetricsDataObject
 
 

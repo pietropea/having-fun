@@ -5,7 +5,7 @@ from fastapi import APIRouter, HTTPException, Response, status
 from ..calculations import calculate_average_metrics, calculate_national_daily_fcs
 from ..data_source import data_source
 from ..exceptions import ThirdPartyAPIIntegrationException
-from ..logging import debug
+from ..logging import debug, info
 from .. import schemas
 from .. import config
 
@@ -24,6 +24,7 @@ def get_average_metrics(
 ):
     # TODO: configure proper app profiler
     start_timestamp = time.time()
+    info(f"get_average_metrics API invoked at: {start_timestamp}")
 
     try:
         data = data_source.get_data(iso3, date_start, date_end)

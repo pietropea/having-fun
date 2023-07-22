@@ -1,7 +1,8 @@
 import logging
 
-logger = logging.getLogger("having-fun")
+logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
+logger.addHandler(logging.StreamHandler())
 
 
 def info(message: str) -> None:
