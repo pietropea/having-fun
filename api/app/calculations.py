@@ -1,13 +1,22 @@
 from typing import List, Any
-from .schemas import DataObject, CountryDataObject, RegionDataObject
+from .schemas import (
+    DataObject,
+    CountryDataObject,
+    RegionDataObject,
+    AverageMetrics,
+    CalculateAverageMetrics,
+    FCSPrevalence,
+    RegionMonthlyAverageMetrics,
+    CalculateNationalDailyFCS,
+)
 
 
-def calculate_average_metrics(data: List[Any]):
+def calculate_average_metrics(data: List[Any]) -> CalculateAverageMetrics:
     ###### ----- Preprocessing and data preparation
     # Dictionary to store the cumulative sum and count of metrics for each ADM1 area per month
     metrics_sum: dict[str, dict] = {}
 
-    # Look up table for the ADM1 areas info
+    # Look up table for the ADM1 areas and regions
     adm1_areas: dict[str, RegionDataObject] = {}
 
     # Get the country information to enrich the API response
@@ -57,30 +66,34 @@ def calculate_average_metrics(data: List[Any]):
 
     ###### ----- Result generation
     # Dictionary to store the average metrics for each ADM1 area, for every month
-    average_metrics: dict[str, dict] = {}
+    average_metrics_response: List[RegionMonthlyAverageMetrics] = []
 
     # Loop through ADM1 areas and the months to calculate the monthly average metrics
     for region_id in metrics_sum:
+        months: List[AverageMetrics] = []
         for month in metrics_sum[region_id]:
-            # Initialize the monthly average metrics result for the considered region_id/month
-            if region_id not in average_metrics:
-                average_metrics[region_id] = {}
-
             region_id_month = metrics_sum[region_id][month]
             count = region_id_month["count"]
 
             # Calculate the average for each metric
-            average_metrics[region_id][month] = {
-                "fcs": region_id_month["fcs"] / count,
-                "rcsi": region_id_month["rcsi"] / count,
-                "marketAccess": region_id_month["marketAccess"] / count,
-                "region": region,
-            }
+            calculated_metrics = AverageMetrics(
+                fcs=float(region_id_month["fcs"] / count),
+                rcsi=float(region_id_month["rcsi"] / count),
+                marketAccess=float(region_id_month["marketAccess"] / count),
+            )
+            months.append(calculated_metrics)
 
-    return (average_metrics, country)
+        region_info = RegionMonthlyAverageMetrics(
+            region=adm1_areas[region_id], months=months
+        )
+        average_metrics_response.append(region_info)
+
+    return CalculateAverageMetrics(regions=average_metrics_response, country=country)
 
 
-def calculate_national_daily_fcs(data: List[Any], include_variance: bool = False):
+def calculate_national_daily_fcs(
+    data: List[Any], include_variance: bool = False
+) -> CalculateNationalDailyFCS:
     ###### ----- Preprocessing and data preparation
     # Dictionary to store the cumulative sum of FCS metrics for each ADM1 area
     daily_metrics_sum: dict[str, float] = {}
@@ -104,7 +117,16 @@ def calculate_national_daily_fcs(data: List[Any], include_variance: bool = False
         daily_metrics_sum[date] += fcs
 
     ###### ----- Result generation
-    response = {"country": country, "fcs_prevalence": daily_metrics_sum}
+    fcs_prevalence_list: List[FCSPrevalence] = []
+    for date in daily_metrics_sum:
+        daily_metric = FCSPrevalence(date=date, prevalence=daily_metrics_sum[date])
+        fcs_prevalence_list.append(daily_metric)
+
+    response = CalculateNationalDailyFCS(
+        country=country,
+        fcs_prevalence=fcs_prevalence_list,
+        variance=None,
+    )
 
     # Optionally include variance calculation per day
     # More info at: https://en.wikipedia.org/wiki/Variance
@@ -127,6 +149,6 @@ def calculate_national_daily_fcs(data: List[Any], include_variance: bool = False
         variance = sum_of_powers / (days_amount - 1)
 
         # Include variance in the response
-        response["variance"] = variance
+        response.variance = variance
 
     return response

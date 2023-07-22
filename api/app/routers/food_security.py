@@ -15,7 +15,7 @@ router = APIRouter(prefix="/food_security", tags=["Food Security"])
 @router.get(
     "/averages/{iso3}/",
     status_code=status.HTTP_200_OK,
-    # response_model=schemas.MetricAResponse,
+    response_model=schemas.MetricAResponse,
 )
 def get_average_metrics(
     iso3: str,
@@ -36,20 +36,16 @@ def get_average_metrics(
             status_code=status.HTTP_400_BAD_REQUEST, detail=exception.message
         )
 
-    average_metrics_result, country = calculate_average_metrics(data)
+    response = calculate_average_metrics(data)
     debug(f"Calculation completed at: {time.time() - data_returned_timestamp}")
 
-    response = {"regions": average_metrics_result, "country": country}
-
-    print(response)
-
-    return response
+    return schemas.MetricAResponse(country=response.country, regions=response.regions)
 
 
 @router.get(
     "/daily_fcs/{iso3}/",
     status_code=status.HTTP_200_OK,
-    # response_model=schemas.MetricBResponse,
+    response_model=schemas.MetricBResponse,
 )
 def get_national_daily_fcs(
     iso3: str,
@@ -70,9 +66,11 @@ def get_national_daily_fcs(
             status_code=status.HTTP_400_BAD_REQUEST, detail=exception.message
         )
 
-    average_metrics_result = calculate_national_daily_fcs(
-        data, include_variance.lower() == "true"
-    )
+    result = calculate_national_daily_fcs(data, include_variance.lower() == "true")
     debug(f"Calculation completed at: {time.time() - data_returned_timestamp}")
 
-    return {"response": average_metrics_result}
+    return schemas.MetricBResponse(
+        country=result.country,
+        fcs_prevalence=result.fcs_prevalence,
+        variance=result.variance,
+    )

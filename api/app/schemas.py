@@ -1,6 +1,6 @@
 from pydantic import BaseModel, RootModel
 from enum import Enum
-from typing import Dict, Optional
+from typing import Dict, Optional, List
 
 
 class AllowedCountriesByISO3(Enum):
@@ -15,6 +15,17 @@ class AllowedCountriesByISO3(Enum):
 class MetricDataObject(BaseModel):
     people: int
     prevalence: float
+
+
+class MetricsDataObject(BaseModel):
+    """
+    Model that represent the Third-party API metrics information for sub-national models
+    """
+
+    fcs: MetricDataObject
+    rcsi: MetricDataObject
+    marketAccess: MetricDataObject
+    healthAccess: Optional[MetricDataObject] = None
 
 
 class CountryDataObject(BaseModel):
@@ -38,17 +49,6 @@ class RegionDataObject(BaseModel):
     population: int
 
 
-class MetricsDataObject(BaseModel):
-    """
-    Model that represent the Third-party API metrics information for sub-national models
-    """
-
-    fcs: MetricDataObject
-    rcsi: MetricDataObject
-    marketAccess: MetricDataObject
-    healthAccess: Optional[MetricDataObject] = None
-
-
 class DataObject(BaseModel):
     """
     Model that represent the Third-party API response model
@@ -69,7 +69,36 @@ class MetricAAreaMonthlyAverages(MetricsDataObject):
     region: RegionDataObject
 
 
-# Model that represent the Metric A API response
-class MetricAResponse(BaseModel):
+class AverageMetrics(BaseModel):
+    fcs: float
+    rcsi: float
+    marketAccess: float
+
+
+class RegionMonthlyAverageMetrics(BaseModel):
+    region: RegionDataObject
+    months: List[AverageMetrics]
+
+
+class CalculateAverageMetrics(BaseModel):
     country: CountryDataObject
-    regions: RootModel[Dict[str, Dict[str, MetricAAreaMonthlyAverages]]]
+    regions: List[RegionMonthlyAverageMetrics]
+
+
+class MetricAResponse(CalculateAverageMetrics):
+    pass
+
+
+class FCSPrevalence(BaseModel):
+    date: str
+    prevalence: float
+
+
+class CalculateNationalDailyFCS(BaseModel):
+    country: CountryDataObject
+    fcs_prevalence: List[FCSPrevalence]
+    variance: Optional[float] = None
+
+
+class MetricBResponse(CalculateNationalDailyFCS):
+    pass

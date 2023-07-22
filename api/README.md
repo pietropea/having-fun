@@ -15,6 +15,8 @@ http://127.0.0.1:8000/docs
 
 ````
 
+https://medium.com/@julgq/how-to-deploy-fastapi-on-heroku-using-github-4363d9ba3d41
+
 ## Development features
 
 These features are implemented for the project:
