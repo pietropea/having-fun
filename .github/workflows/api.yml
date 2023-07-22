@@ -36,7 +36,7 @@ jobs:
       - name: Dependencies security check
         run: |
           pip install safety
-          safety check -r ./app/requirements.txt
+          safety check -r ./api/requirements.txt
   deploy:
     runs-on: ubuntu-latest
     strategy:
