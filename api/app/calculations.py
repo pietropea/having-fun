@@ -9,9 +9,11 @@ from .schemas import (
     RegionMonthlyAverageMetrics,
     CalculateNationalDailyFCS,
 )
+from .logging import debug
 
 
 def calculate_average_metrics(data: List[Any]) -> CalculateAverageMetrics:
+    debug("calculate_average_metrics invocation")
     ###### ----- Preprocessing and data preparation
     # Dictionary to store the cumulative sum and count of metrics for each ADM1 area per month
     metrics_sum: dict[str, dict] = {}
@@ -20,6 +22,8 @@ def calculate_average_metrics(data: List[Any]) -> CalculateAverageMetrics:
     adm1_areas: dict[str, RegionDataObject] = {}
 
     # Get the country information to enrich the API response
+    debug("First element of the data returned")
+    debug(data[0])
     first_data_object = DataObject(**data[0])
     country: CountryDataObject = first_data_object.country
 
@@ -132,6 +136,7 @@ def calculate_national_daily_fcs(
     # Dictionary to store the cumulative sum of FCS metrics for each ADM1 area
     daily_metrics_sum: dict[str, float] = {}
     # Get the country information to enrich the API response
+
     first_data_object = DataObject(**data[0])
     country: CountryDataObject = first_data_object.country
 

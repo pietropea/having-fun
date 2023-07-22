@@ -11,7 +11,7 @@ from .exceptions import (
     ThirdPartyAPIIntegrationException,
     DateEndBeforeDateStartException,
 )
-from .logging import info, err
+from .logging import info, err, debug
 from typing import List
 from .schemas import DataObject
 from . import config
@@ -84,6 +84,7 @@ class DataSource:
             info(f"Data returned successfully")
 
             response_json = response.json()
+            debug(response_json)
 
             return response_json
         except InvalidDateException as exception:
