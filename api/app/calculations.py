@@ -91,6 +91,40 @@ def calculate_average_metrics(data: List[Any]) -> CalculateAverageMetrics:
     return CalculateAverageMetrics(regions=average_metrics_response, country=country)
 
 
+def extract_FCS_prevalence(entry: DataObject) -> float:
+    # Extract data values
+    metrics = entry.metrics
+    fcs_metric = metrics.fcs
+    fcs = fcs_metric.prevalence
+    return fcs
+
+
+def calculate_variance(data: List[Any]) -> float:
+    # More info at: https://en.wikipedia.org/wiki/Variance
+    # Steps to calculate:
+    # 1. Calculate the set average
+    total_sum = 0.0
+    for raw_entry in data:
+        entry = DataObject(**raw_entry)
+        fcs = extract_FCS_prevalence(entry)
+        total_sum += fcs
+
+    days_amount = len(data)
+    daily_metric_average = total_sum / days_amount
+
+    # 2. Sum the power of 2 of the difference between the item's value and the list average
+    sum_of_powers = 0.0
+    for raw_entry in data:
+        entry = DataObject(**raw_entry)
+        fcs = extract_FCS_prevalence(entry)
+        sum_of_powers += (fcs - daily_metric_average) ** 2
+
+    # 3. Divide the sum of the powers by the list length - 1
+    variance = sum_of_powers / (days_amount - 1)
+
+    return variance
+
+
 def calculate_national_daily_fcs(
     data: List[Any], include_variance: bool = False
 ) -> CalculateNationalDailyFCS:
@@ -128,27 +162,9 @@ def calculate_national_daily_fcs(
         variance=None,
     )
 
-    # Optionally include variance calculation per day
-    # More info at: https://en.wikipedia.org/wiki/Variance
+    # Optionally include variance calculation
     if include_variance:
-        # Steps to calculate:
-        # 1. Calculate the set average
-        total_sum = 0.0
-        for date in daily_metrics_sum:
-            total_sum += daily_metrics_sum[date]
-
-        days_amount = len(data)
-        daily_metric_average = total_sum / days_amount
-
-        # 2. Sum the power of 2 of the difference between the item's value and the list average
-        sum_of_powers = 0.0
-        for date in daily_metrics_sum:
-            sum_of_powers += (daily_metrics_sum[date] - daily_metric_average) ** 2
-
-        # 3. Divide the sum of the powers by the list length - 1
-        variance = sum_of_powers / (days_amount - 1)
-
         # Include variance in the response
-        response.variance = variance
+        response.variance = calculate_variance(data)
 
     return response
