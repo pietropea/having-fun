@@ -1,0 +1,2543 @@
+[
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901156, "name": "Antioquia", "population": 6226346},
+    "date": "2023-06-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 1752566, "prevalence": 0.28147612621716694},
+      "rcsi": {"people": 2119672, "prevalence": 0.3404359475043629},
+      "marketAccess": {"people": 2625245, "prevalence": 0.5225892504339518}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901157, "name": "Atl\u00e1ntico", "population": 2420044},
+    "date": "2023-06-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 750494, "prevalence": 0.3101158491333215},
+      "rcsi": {"people": 887091, "prevalence": 0.3665598642008162},
+      "marketAccess": {"people": 1065133, "prevalence": 0.515748671107132}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901158, "name": "Bogot\u00e1, D.c.", "population": 7899968},
+    "date": "2023-06-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 2223651, "prevalence": 0.281476231758562},
+      "rcsi": {"people": 2689433, "prevalence": 0.3404359359430317},
+      "marketAccess": {"people": 3330903, "prevalence": 0.5225893280002629}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901159, "name": "Bol\u00edvar", "population": 2562104},
+    "date": "2023-06-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 721170, "prevalence": 0.28147597489044984},
+      "rcsi": {"people": 872232, "prevalence": 0.34043582930279176},
+      "marketAccess": {"people": 1080272, "prevalence": 0.5225889808809043}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901160, "name": "Boyac\u00e1", "population": 1162875},
+    "date": "2023-06-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 327321, "prevalence": 0.2814759344910909},
+      "rcsi": {"people": 395884, "prevalence": 0.3404355584220144},
+      "marketAccess": {"people": 490308, "prevalence": 0.522588475869328}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901161, "name": "Caldas", "population": 839290},
+    "date": "2023-06-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 236239, "prevalence": 0.2814750994760288},
+      "rcsi": {"people": 285724, "prevalence": 0.34043536798961027},
+      "marketAccess": {"people": 353874, "prevalence": 0.5225892713897785}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901162, "name": "Caquet\u00e1", "population": 521781},
+    "date": "2023-06-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 211155, "prevalence": 0.40468127432773515},
+      "rcsi": {"people": 189066, "prevalence": 0.362347421619415},
+      "marketAccess": {"people": 257566, "prevalence": 0.5917558800244678}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901163, "name": "Cauca", "population": 1447061},
+    "date": "2023-06-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 448756, "prevalence": 0.3101154685255148},
+      "rcsi": {"people": 530434, "prevalence": 0.36655952997143865},
+      "marketAccess": {"people": 636894, "prevalence": 0.5157483629998938}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901164, "name": "Cesar", "population": 971502},
+    "date": "2023-06-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 311791, "prevalence": 0.3209370644630686},
+      "rcsi": {"people": 458668, "prevalence": 0.47212254838384277},
+      "marketAccess": {"people": 551158, "prevalence": 0.6597109011540364}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901165, "name": "C\u00f3rdoba", "population": 1988891},
+    "date": "2023-06-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 638310, "prevalence": 0.3209376481667422},
+      "rcsi": {"people": 939001, "prevalence": 0.47212290668518286},
+      "marketAccess": {"people": 1128349, "prevalence": 0.6597109760324714}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901166, "name": "Cundinamarca", "population": 3204037},
+    "date": "2023-06-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 901859, "prevalence": 0.2814761196140687},
+      "rcsi": {"people": 1090769, "prevalence": 0.3404358314214224},
+      "marketAccess": {"people": 1350934, "prevalence": 0.522589274856729}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901167, "name": "Choc\u00f3", "population": 542415},
+    "date": "2023-06-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 168211, "prevalence": 0.31011494888600055},
+      "rcsi": {"people": 198827, "prevalence": 0.36655881566697085},
+      "marketAccess": {"people": 238733, "prevalence": 0.5157488925461126}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901168, "name": "Huila", "population": 1135943},
+    "date": "2023-06-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 319740, "prevalence": 0.28147567240637933},
+      "rcsi": {"people": 386715, "prevalence": 0.3404352154993692},
+      "marketAccess": {"people": 478953, "prevalence": 0.522588972625963}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901169, "name": "La Guajira", "population": 1164323},
+    "date": "2023-06-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 373675, "prevalence": 0.32093757488257124},
+      "rcsi": {"people": 549703, "prevalence": 0.4721224265087952},
+      "marketAccess": {"people": 660550, "prevalence": 0.6597106030943669}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901170, "name": "Magdalena", "population": 1376241},
+    "date": "2023-06-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 441688, "prevalence": 0.32093797525288087},
+      "rcsi": {"people": 649755, "prevalence": 0.47212297846089457},
+      "marketAccess": {"people": 780777, "prevalence": 0.6597110576840592}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901171, "name": "Meta", "population": 1008063},
+    "date": "2023-06-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 407944, "prevalence": 0.4046810566403092},
+      "rcsi": {"people": 365270, "prevalence": 0.36234838497197097},
+      "marketAccess": {"people": 497610, "prevalence": 0.5917574497699684}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901172, "name": "Nari\u00f1o", "population": 1716051},
+    "date": "2023-06-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 532174, "prevalence": 0.3101154919055436},
+      "rcsi": {"people": 629035, "prevalence": 0.36655961856611485},
+      "marketAccess": {"people": 755285, "prevalence": 0.5157487791079957}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901173, "name": "Norte De Santander", "population": 1232902},
+    "date": "2023-06-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 347032, "prevalence": 0.2814760192069986},
+      "rcsi": {"people": 419724, "prevalence": 0.3404358172831255},
+      "marketAccess": {"people": 519834, "prevalence": 0.5225886910714304}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901174, "name": "Quindio", "population": 554714},
+    "date": "2023-06-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 156138, "prevalence": 0.28147505946876433},
+      "rcsi": {"people": 188844, "prevalence": 0.34043489077254224},
+      "marketAccess": {"people": 233886, "prevalence": 0.5225874581675382}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901175, "name": "Risaralda", "population": 884734},
+    "date": "2023-06-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 249031, "prevalence": 0.28147584362220623},
+      "rcsi": {"people": 301195, "prevalence": 0.34043565636677237},
+      "marketAccess": {"people": 373034, "prevalence": 0.5225881803304445}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901176, "name": "Santander", "population": 2124283},
+    "date": "2023-06-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 597934, "prevalence": 0.2814759605639163},
+      "rcsi": {"people": 723182, "prevalence": 0.3404358082232923},
+      "marketAccess": {"people": 895672, "prevalence": 0.5225892926192925}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901177, "name": "Sucre", "population": 805598},
+    "date": "2023-06-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 258547, "prevalence": 0.3209379864398869},
+      "rcsi": {"people": 380341, "prevalence": 0.47212257230032845},
+      "marketAccess": {"people": 457036, "prevalence": 0.6597103151382904}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901178, "name": "Tolima", "population": 1371141},
+    "date": "2023-06-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 385943, "prevalence": 0.28147607426470794},
+      "rcsi": {"people": 466785, "prevalence": 0.3404354475579098},
+      "marketAccess": {"people": 578121, "prevalence": 0.5225892970835195}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901179, "name": "Valle Del Cauca", "population": 4410222},
+    "date": "2023-06-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 1367680, "prevalence": 0.3101159079973752},
+      "rcsi": {"people": 1616610, "prevalence": 0.366559778623389},
+      "marketAccess": {"people": 1941071, "prevalence": 0.5157491363648443}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901180, "name": "Arauca", "population": 354798},
+    "date": "2023-06-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 143580, "prevalence": 0.40468097339894815},
+      "rcsi": {"people": 128560, "prevalence": 0.3623470256314861},
+      "marketAccess": {"people": 175138, "prevalence": 0.5917544496526631}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901181, "name": "Casanare", "population": 711638},
+    "date": "2023-06-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 287987, "prevalence": 0.40468187477341006},
+      "rcsi": {"people": 257861, "prevalence": 0.3623485536185532},
+      "marketAccess": {"people": 351285, "prevalence": 0.5917561559832307}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901182, "name": "Putumayo", "population": 426548},
+    "date": "2023-06-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 172616, "prevalence": 0.40468130198711516},
+      "rcsi": {"people": 154559, "prevalence": 0.3623484344083198},
+      "marketAccess": {"people": 210556, "prevalence": 0.5917551155438813}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901183, "name": "Archipi\u00e9lago De San Andr\u00e9s", "population": 80342},
+    "date": "2023-06-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 25784, "prevalence": 0.3209280326603769},
+      "rcsi": {"people": 37931, "prevalence": 0.47211919046078016},
+      "marketAccess": {"people": 45580, "prevalence": 0.659709785633572}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901184, "name": "Amazonas", "population": 111845},
+    "date": "2023-06-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 45261, "prevalence": 0.4046761142652778},
+      "rcsi": {"people": 40526, "prevalence": 0.3623407394161563},
+      "marketAccess": {"people": 55210, "prevalence": 0.5917571071887126}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901185, "name": "Guain\u00eda", "population": 91617},
+    "date": "2023-06-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 37075, "prevalence": 0.40467380507984324},
+      "rcsi": {"people": 33197, "prevalence": 0.36234541624371025},
+      "marketAccess": {"people": 45224, "prevalence": 0.5917458421975458}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901186, "name": "Guaviare", "population": 144347},
+    "date": "2023-06-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 58414, "prevalence": 0.4046776171309414},
+      "rcsi": {"people": 52303, "prevalence": 0.36234213388570596},
+      "marketAccess": {"people": 71254, "prevalence": 0.5917575348899007}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901187, "name": "Vaup\u00e9s", "population": 80658},
+    "date": "2023-06-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 32640, "prevalence": 0.4046715762850554},
+      "rcsi": {"people": 29226, "prevalence": 0.3623447147214163},
+      "marketAccess": {"people": 39815, "prevalence": 0.5917545152529072}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901188, "name": "Vichada", "population": 76364},
+    "date": "2023-06-01",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 30903, "prevalence": 0.40468021580849617},
+      "rcsi": {"people": 27670, "prevalence": 0.36234351264993975},
+      "marketAccess": {"people": 37695, "prevalence": 0.5917488029096439}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901156, "name": "Antioquia", "population": 6226346},
+    "date": "2023-06-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 1755375, "prevalence": 0.2819269921716525},
+      "rcsi": {"people": 2122997, "prevalence": 0.34096996858189377},
+      "marketAccess": {"people": 2625899, "prevalence": 0.5218120441847724}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901157, "name": "Atl\u00e1ntico", "population": 2420044},
+    "date": "2023-06-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 735037, "prevalence": 0.30372877517929425},
+      "rcsi": {"people": 866375, "prevalence": 0.3579996892618481},
+      "marketAccess": {"people": 1045582, "prevalence": 0.5052357339924662}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901158, "name": "Bogot\u00e1, D.c.", "population": 7899968},
+    "date": "2023-06-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 2227214, "prevalence": 0.28192696476745227},
+      "rcsi": {"people": 2693652, "prevalence": 0.3409699887391949},
+      "marketAccess": {"people": 3331732, "prevalence": 0.5218119973989408}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901159, "name": "Bol\u00edvar", "population": 2562104},
+    "date": "2023-06-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 722326, "prevalence": 0.2819268850913156},
+      "rcsi": {"people": 873600, "prevalence": 0.34096976547400104},
+      "marketAccess": {"people": 1080541, "prevalence": 0.5218117185627044}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901160, "name": "Boyac\u00e1", "population": 1162875},
+    "date": "2023-06-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 327845, "prevalence": 0.2819262603461249},
+      "rcsi": {"people": 396505, "prevalence": 0.34096957970547137},
+      "marketAccess": {"people": 490430, "prevalence": 0.5218111161367381}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901161, "name": "Caldas", "population": 839290},
+    "date": "2023-06-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 236618, "prevalence": 0.2819263901631141},
+      "rcsi": {"people": 286172, "prevalence": 0.3409691524979447},
+      "marketAccess": {"people": 353962, "prevalence": 0.5218118337311437}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901162, "name": "Caquet\u00e1", "population": 521781},
+    "date": "2023-06-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 207045, "prevalence": 0.39680440644638265},
+      "rcsi": {"people": 184736, "prevalence": 0.3540489209074305},
+      "marketAccess": {"people": 256276, "prevalence": 0.5882230552927349}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901163, "name": "Cauca", "population": 1447061},
+    "date": "2023-06-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 439514, "prevalence": 0.30372873016410507},
+      "rcsi": {"people": 518047, "prevalence": 0.35799942089517994},
+      "marketAccess": {"people": 625204, "prevalence": 0.5052358189677334}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901164, "name": "Cesar", "population": 971502},
+    "date": "2023-06-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 310832, "prevalence": 0.3199499331962261},
+      "rcsi": {"people": 459272, "prevalence": 0.47274426609518044},
+      "marketAccess": {"people": 546094, "prevalence": 0.653721741641253}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901165, "name": "C\u00f3rdoba", "population": 1988891},
+    "date": "2023-06-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 636345, "prevalence": 0.31994966038862865},
+      "rcsi": {"people": 940238, "prevalence": 0.4727448613322701},
+      "marketAccess": {"people": 1117983, "prevalence": 0.6537225112806353}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901166, "name": "Cundinamarca", "population": 3204037},
+    "date": "2023-06-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 903304, "prevalence": 0.2819268316814069},
+      "rcsi": {"people": 1092480, "prevalence": 0.3409698452296275},
+      "marketAccess": {"people": 1351270, "prevalence": 0.5218118584417027}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901167, "name": "Choc\u00f3", "population": 542415},
+    "date": "2023-06-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 164747, "prevalence": 0.303728694818543},
+      "rcsi": {"people": 194184, "prevalence": 0.3579989491441055},
+      "marketAccess": {"people": 234350, "prevalence": 0.5052339085263258}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901168, "name": "Huila", "population": 1135943},
+    "date": "2023-06-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 320253, "prevalence": 0.2819269980976158},
+      "rcsi": {"people": 387322, "prevalence": 0.3409695732972517},
+      "marketAccess": {"people": 479072, "prevalence": 0.5218114219640346}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901169, "name": "La Guajira", "population": 1164323},
+    "date": "2023-06-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 372525, "prevalence": 0.31994987645180933},
+      "rcsi": {"people": 550427, "prevalence": 0.47274424708607493},
+      "marketAccess": {"people": 654482, "prevalence": 0.6537225308431949}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901170, "name": "Magdalena", "population": 1376241},
+    "date": "2023-06-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 440328, "prevalence": 0.3199497762383187},
+      "rcsi": {"people": 650611, "prevalence": 0.47274496254653076},
+      "marketAccess": {"people": 773604, "prevalence": 0.6537225075676307}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901171, "name": "Meta", "population": 1008063},
+    "date": "2023-06-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 400005, "prevalence": 0.3968055567955574},
+      "rcsi": {"people": 356903, "prevalence": 0.3540483084886559},
+      "marketAccess": {"people": 495118, "prevalence": 0.588224903622377}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901172, "name": "Nari\u00f1o", "population": 1716051},
+    "date": "2023-06-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 521214, "prevalence": 0.303728735334789},
+      "rcsi": {"people": 614346, "prevalence": 0.35799984965481796},
+      "marketAccess": {"people": 741421, "prevalence": 0.5052355666879288}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901173, "name": "Norte De Santander", "population": 1232902},
+    "date": "2023-06-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 347588, "prevalence": 0.2819267062588916},
+      "rcsi": {"people": 420382, "prevalence": 0.34096951744745324},
+      "marketAccess": {"people": 519964, "prevalence": 0.5218119865869357}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901174, "name": "Quindio", "population": 554714},
+    "date": "2023-06-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 156388, "prevalence": 0.28192546068784996},
+      "rcsi": {"people": 189140, "prevalence": 0.34096849908241006},
+      "marketAccess": {"people": 233945, "prevalence": 0.521811892681829}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901175, "name": "Risaralda", "population": 884734},
+    "date": "2023-06-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 249430, "prevalence": 0.2819265451536846},
+      "rcsi": {"people": 301667, "prevalence": 0.3409691500496194},
+      "marketAccess": {"people": 373127, "prevalence": 0.521811073450217}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901176, "name": "Santander", "population": 2124283},
+    "date": "2023-06-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 598892, "prevalence": 0.2819266547818723},
+      "rcsi": {"people": 724316, "prevalence": 0.3409696354016861},
+      "marketAccess": {"people": 895895, "prevalence": 0.5218120109061796}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901177, "name": "Sucre", "population": 805598},
+    "date": "2023-06-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 257751, "prevalence": 0.3199499005707561},
+      "rcsi": {"people": 380842, "prevalence": 0.472744470567206},
+      "marketAccess": {"people": 452837, "prevalence": 0.6537214696540903}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901178, "name": "Tolima", "population": 1371141},
+    "date": "2023-06-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 386561, "prevalence": 0.281926512298881},
+      "rcsi": {"people": 467517, "prevalence": 0.3409693095020862},
+      "marketAccess": {"people": 578265, "prevalence": 0.5218120715662694}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901179, "name": "Valle Del Cauca", "population": 4410222},
+    "date": "2023-06-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 1339512, "prevalence": 0.30372892793151907},
+      "rcsi": {"people": 1578859, "prevalence": 0.35799989206892535},
+      "marketAccess": {"people": 1905440, "prevalence": 0.505235723052966}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901180, "name": "Arauca", "population": 354798},
+    "date": "2023-06-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 140785, "prevalence": 0.3968032514275729},
+      "rcsi": {"people": 125615, "prevalence": 0.35404652788347174},
+      "marketAccess": {"people": 174261, "prevalence": 0.588222192251471}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901181, "name": "Casanare", "population": 711638},
+    "date": "2023-06-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 282382, "prevalence": 0.39680567929199956},
+      "rcsi": {"people": 251954, "prevalence": 0.3540479850710614},
+      "marketAccess": {"people": 349526, "prevalence": 0.58822397682931}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901182, "name": "Putumayo", "population": 426548},
+    "date": "2023-06-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 169256, "prevalence": 0.39680411114341174},
+      "rcsi": {"people": 151018, "prevalence": 0.35404690679595263},
+      "marketAccess": {"people": 209502, "prevalence": 0.5882238506857365}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901183, "name": "Archipi\u00e9lago De San Andr\u00e9s", "population": 80342},
+    "date": "2023-06-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 25705, "prevalence": 0.31994473625252046},
+      "rcsi": {"people": 37981, "prevalence": 0.4727415299594235},
+      "marketAccess": {"people": 45161, "prevalence": 0.6537175350166203}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901184, "name": "Amazonas", "population": 111845},
+    "date": "2023-06-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 44380, "prevalence": 0.39679914166927444},
+      "rcsi": {"people": 39598, "prevalence": 0.3540435424024319},
+      "marketAccess": {"people": 54933, "prevalence": 0.5882190833408767}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901185, "name": "Guain\u00eda", "population": 91617},
+    "date": "2023-06-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 36354, "prevalence": 0.3968040865778185},
+      "rcsi": {"people": 32436, "prevalence": 0.35403909754739843},
+      "marketAccess": {"people": 44998, "prevalence": 0.5882196267028885}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901186, "name": "Guaviare", "population": 144347},
+    "date": "2023-06-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 57277, "prevalence": 0.3968007648236541},
+      "rcsi": {"people": 51105, "prevalence": 0.35404268879852024},
+      "marketAccess": {"people": 70897, "prevalence": 0.5882236243125171}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901187, "name": "Vaup\u00e9s", "population": 80658},
+    "date": "2023-06-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 32005, "prevalence": 0.3967988296263235},
+      "rcsi": {"people": 28556, "prevalence": 0.3540380371444866},
+      "marketAccess": {"people": 39615, "prevalence": 0.5882129447770368}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901188, "name": "Vichada", "population": 76364},
+    "date": "2023-06-02",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 30301, "prevalence": 0.3967969200146666},
+      "rcsi": {"people": 27036, "prevalence": 0.35404117123251794},
+      "marketAccess": {"people": 37506, "prevalence": 0.588212767447497}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901156, "name": "Antioquia", "population": 6226346},
+    "date": "2023-06-03",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 1790354, "prevalence": 0.2875448939072772},
+      "rcsi": {"people": 2119597, "prevalence": 0.3404239019161479},
+      "marketAccess": {"people": 2595072, "prevalence": 0.5151004781651923}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901157, "name": "Atl\u00e1ntico", "population": 2420044},
+    "date": "2023-06-03",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 737058, "prevalence": 0.30456388396244033},
+      "rcsi": {"people": 890457, "prevalence": 0.3679507480029289},
+      "marketAccess": {"people": 1026577, "prevalence": 0.49039114657147814}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901158, "name": "Bogot\u00e1, D.c.", "population": 7899968},
+    "date": "2023-06-03",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 2271596, "prevalence": 0.2875449622074418},
+      "rcsi": {"people": 2689338, "prevalence": 0.3404239105778657},
+      "marketAccess": {"people": 3292619, "prevalence": 0.5151004626495541}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901159, "name": "Bol\u00edvar", "population": 2562104},
+    "date": "2023-06-03",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 736720, "prevalence": 0.2875449240155747},
+      "rcsi": {"people": 872201, "prevalence": 0.3404237298720114},
+      "marketAccess": {"people": 1067856, "prevalence": 0.5151002134185758}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901160, "name": "Boyac\u00e1", "population": 1162875},
+    "date": "2023-06-03",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 334378, "prevalence": 0.2875442330431044},
+      "rcsi": {"people": 395870, "prevalence": 0.3404235192948511},
+      "marketAccess": {"people": 484673, "prevalence": 0.5151000416851883}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901161, "name": "Caldas", "population": 839290},
+    "date": "2023-06-03",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 241333, "prevalence": 0.2875442338166784},
+      "rcsi": {"people": 285714, "prevalence": 0.3404234531568349},
+      "marketAccess": {"people": 349806, "prevalence": 0.5150993453309481}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901162, "name": "Caquet\u00e1", "population": 521781},
+    "date": "2023-06-03",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 213398, "prevalence": 0.40898001268731515},
+      "rcsi": {"people": 188837, "prevalence": 0.3619085401729845},
+      "marketAccess": {"people": 261052, "prevalence": 0.5996959227061933}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901163, "name": "Cauca", "population": 1447061},
+    "date": "2023-06-03",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 440722, "prevalence": 0.3045635256564858},
+      "rcsi": {"people": 532447, "prevalence": 0.3679506254401162},
+      "marketAccess": {"people": 613840, "prevalence": 0.4903912352939703}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901164, "name": "Cesar", "population": 971502},
+    "date": "2023-06-03",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 314072, "prevalence": 0.32328497522393157},
+      "rcsi": {"people": 444160, "prevalence": 0.45718897130422786},
+      "marketAccess": {"people": 547959, "prevalence": 0.651114861908125}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901165, "name": "C\u00f3rdoba", "population": 1988891},
+    "date": "2023-06-03",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 642980, "prevalence": 0.32328569036714433},
+      "rcsi": {"people": 909299, "prevalence": 0.45718895605641535},
+      "marketAccess": {"people": 1121800, "prevalence": 0.6511149934244813}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901166, "name": "Cundinamarca", "population": 3204037},
+    "date": "2023-06-03",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 921304, "prevalence": 0.2875447443334768},
+      "rcsi": {"people": 1090731, "prevalence": 0.34042397138360136},
+      "marketAccess": {"people": 1335407, "prevalence": 0.5151004364822745}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901167, "name": "Choc\u00f3", "population": 542415},
+    "date": "2023-06-03",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 165200, "prevalence": 0.30456384871362335},
+      "rcsi": {"people": 199582, "prevalence": 0.3679507388254381},
+      "marketAccess": {"people": 230091, "prevalence": 0.4903907771682944}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901168, "name": "Huila", "population": 1135943},
+    "date": "2023-06-03",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 326634, "prevalence": 0.28754435741934237},
+      "rcsi": {"people": 386702, "prevalence": 0.34042377126317075},
+      "marketAccess": {"people": 473448, "prevalence": 0.5150999868230445}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901169, "name": "La Guajira", "population": 1164323},
+    "date": "2023-06-03",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 376409, "prevalence": 0.3232857205431826},
+      "rcsi": {"people": 532315, "prevalence": 0.4571884262356751},
+      "marketAccess": {"people": 656716, "prevalence": 0.6511144951974929}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901170, "name": "Magdalena", "population": 1376241},
+    "date": "2023-06-03",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 444919, "prevalence": 0.3232856745293884},
+      "rcsi": {"people": 629202, "prevalence": 0.4571888208533244},
+      "marketAccess": {"people": 776245, "prevalence": 0.6511147996315151}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901171, "name": "Meta", "population": 1008063},
+    "date": "2023-06-03",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 412278, "prevalence": 0.40898039110650825},
+      "rcsi": {"people": 364828, "prevalence": 0.3619099203125202},
+      "marketAccess": {"people": 504345, "prevalence": 0.5996976914815944}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901172, "name": "Nari\u00f1o", "population": 1716051},
+    "date": "2023-06-03",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 522647, "prevalence": 0.3045637921017499},
+      "rcsi": {"people": 631422, "prevalence": 0.367950602866698},
+      "marketAccess": {"people": 727945, "prevalence": 0.49039126965317537}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901173, "name": "Norte De Santander", "population": 1232902},
+    "date": "2023-06-03",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 354514, "prevalence": 0.2875443465904022},
+      "rcsi": {"people": 419709, "prevalence": 0.34042365086600557},
+      "marketAccess": {"people": 513859, "prevalence": 0.5150995879030398}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901174, "name": "Quindio", "population": 554714},
+    "date": "2023-06-03",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 159505, "prevalence": 0.28754457251845095},
+      "rcsi": {"people": 188837, "prevalence": 0.3404222716571062},
+      "marketAccess": {"people": 231198, "prevalence": 0.5150990372306273}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901175, "name": "Risaralda", "population": 884734},
+    "date": "2023-06-03",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 254400, "prevalence": 0.2875440527887478},
+      "rcsi": {"people": 301184, "prevalence": 0.3404232232512823},
+      "marketAccess": {"people": 368747, "prevalence": 0.5151000244389755}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901176, "name": "Santander", "population": 2124283},
+    "date": "2023-06-03",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 610826, "prevalence": 0.28754455032592174},
+      "rcsi": {"people": 723156, "prevalence": 0.340423568799449},
+      "marketAccess": {"people": 885377, "prevalence": 0.5151001239424906}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901177, "name": "Sucre", "population": 805598},
+    "date": "2023-06-03",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 260438, "prevalence": 0.32328531103602537},
+      "rcsi": {"people": 368310, "prevalence": 0.45718832469792625},
+      "marketAccess": {"people": 454383, "prevalence": 0.6511138571165047}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901178, "name": "Tolima", "population": 1371141},
+    "date": "2023-06-03",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 394264, "prevalence": 0.2875444611458632},
+      "rcsi": {"people": 466769, "prevalence": 0.3404237784443759},
+      "marketAccess": {"people": 571476, "prevalence": 0.515100143694456}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901179, "name": "Valle Del Cauca", "population": 4410222},
+    "date": "2023-06-03",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 1343194, "prevalence": 0.30456380653853704},
+      "rcsi": {"people": 1622745, "prevalence": 0.36795086505849367},
+      "marketAccess": {"people": 1870807, "prevalence": 0.4903914482750097}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901180, "name": "Arauca", "population": 354798},
+    "date": "2023-06-03",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 145105, "prevalence": 0.408979193794779},
+      "rcsi": {"people": 128404, "prevalence": 0.3619073388237814},
+      "marketAccess": {"people": 177509, "prevalence": 0.5996965444957225}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901181, "name": "Casanare", "population": 711638},
+    "date": "2023-06-03",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 291046, "prevalence": 0.40898040857851886},
+      "rcsi": {"people": 257548, "prevalence": 0.361908723255363},
+      "marketAccess": {"people": 356040, "prevalence": 0.5996971624973708}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901182, "name": "Putumayo", "population": 426548},
+    "date": "2023-06-03",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 174450, "prevalence": 0.40898093532263663},
+      "rcsi": {"people": 154371, "prevalence": 0.3619076868253983},
+      "marketAccess": {"people": 213406, "prevalence": 0.599695855870579}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901183, "name": "Archipi\u00e9lago De San Andr\u00e9s", "population": 80342},
+    "date": "2023-06-03",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 25973, "prevalence": 0.32328047596524856},
+      "rcsi": {"people": 36731, "prevalence": 0.45718304249334096},
+      "marketAccess": {"people": 45315, "prevalence": 0.6511073360681907}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901184, "name": "Amazonas", "population": 111845},
+    "date": "2023-06-03",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 45742, "prevalence": 0.4089767088381242},
+      "rcsi": {"people": 40477, "prevalence": 0.36190263310831955},
+      "marketAccess": {"people": 55957, "prevalence": 0.5996946590614299}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901185, "name": "Guain\u00eda", "population": 91617},
+    "date": "2023-06-03",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 37469, "prevalence": 0.40897431699357106},
+      "rcsi": {"people": 33157, "prevalence": 0.36190881604942315},
+      "marketAccess": {"people": 45836, "prevalence": 0.599684710302602}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901186, "name": "Guaviare", "population": 144347},
+    "date": "2023-06-03",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 59035, "prevalence": 0.40897975018531735},
+      "rcsi": {"people": 52240, "prevalence": 0.3619056856048273},
+      "marketAccess": {"people": 72218, "prevalence": 0.5996944460521402}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901187, "name": "Vaup\u00e9s", "population": 80658},
+    "date": "2023-06-03",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 32987, "prevalence": 0.40897369138833095},
+      "rcsi": {"people": 29190, "prevalence": 0.3618983857769843},
+      "marketAccess": {"people": 40354, "prevalence": 0.5996964427139537}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901188, "name": "Vichada", "population": 76364},
+    "date": "2023-06-03",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 31231, "prevalence": 0.4089754334503169},
+      "rcsi": {"people": 27636, "prevalence": 0.36189827667487295},
+      "marketAccess": {"people": 38205, "prevalence": 0.5996859406068488}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901156, "name": "Antioquia", "population": 6226346},
+    "date": "2023-06-04",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 1847724, "prevalence": 0.2967589658525241},
+      "rcsi": {"people": 2080191, "prevalence": 0.3340949892601535},
+      "marketAccess": {"people": 2573610, "prevalence": 0.5065744440311813}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901157, "name": "Atl\u00e1ntico", "population": 2420044},
+    "date": "2023-06-04",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 751237, "prevalence": 0.31042286834454247},
+      "rcsi": {"people": 903777, "prevalence": 0.37345478016102185},
+      "marketAccess": {"people": 1036669, "prevalence": 0.48704119732981166}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901158, "name": "Bogot\u00e1, D.c.", "population": 7899968},
+    "date": "2023-06-04",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 2344386, "prevalence": 0.29675892358045},
+      "rcsi": {"people": 2639339, "prevalence": 0.33409489759958516},
+      "marketAccess": {"people": 3265388, "prevalence": 0.5065744158206911}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901159, "name": "Bol\u00edvar", "population": 2562104},
+    "date": "2023-06-04",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 760327, "prevalence": 0.29675883570690337},
+      "rcsi": {"people": 855986, "prevalence": 0.3340949469654627},
+      "marketAccess": {"people": 1059025, "prevalence": 0.5065744130867529}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901160, "name": "Boyac\u00e1", "population": 1162875},
+    "date": "2023-06-04",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 345093, "prevalence": 0.29675846501128667},
+      "rcsi": {"people": 388510, "prevalence": 0.3340943781575836},
+      "marketAccess": {"people": 480665, "prevalence": 0.5065744222535293}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901161, "name": "Caldas", "population": 839290},
+    "date": "2023-06-04",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 249066, "prevalence": 0.2967579740018349},
+      "rcsi": {"people": 280402, "prevalence": 0.3340942939865839},
+      "marketAccess": {"people": 346913, "prevalence": 0.5065733260517161}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901162, "name": "Caquet\u00e1", "population": 521781},
+    "date": "2023-06-04",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 218384, "prevalence": 0.4185357458397297},
+      "rcsi": {"people": 179741, "prevalence": 0.3444759391392174},
+      "marketAccess": {"people": 254507, "prevalence": 0.5897944887203769}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901163, "name": "Cauca", "population": 1447061},
+    "date": "2023-06-04",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 449201, "prevalence": 0.3104229883881882},
+      "rcsi": {"people": 540412, "prevalence": 0.37345488545403405},
+      "marketAccess": {"people": 619874, "prevalence": 0.4870408968978145}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901164, "name": "Cesar", "population": 971502},
+    "date": "2023-06-04",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 325962, "prevalence": 0.3355237559984437},
+      "rcsi": {"people": 448547, "prevalence": 0.46170465938309957},
+      "marketAccess": {"people": 542648, "prevalence": 0.6472180609562208}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901165, "name": "C\u00f3rdoba", "population": 1988891},
+    "date": "2023-06-04",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 667320, "prevalence": 0.33552366620392976},
+      "rcsi": {"people": 918280, "prevalence": 0.4617045378555184},
+      "marketAccess": {"people": 1110928, "prevalence": 0.6472186909155827}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901166, "name": "Cundinamarca", "population": 3204037},
+    "date": "2023-06-04",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 950826, "prevalence": 0.29675874529538826},
+      "rcsi": {"people": 1070452, "prevalence": 0.33409476856852777},
+      "marketAccess": {"people": 1324363, "prevalence": 0.5065744811385441}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901167, "name": "Choc\u00f3", "population": 542415},
+    "date": "2023-06-04",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 168378, "prevalence": 0.31042283122701253},
+      "rcsi": {"people": 202567, "prevalence": 0.37345390522017274},
+      "marketAccess": {"people": 232353, "prevalence": 0.48704090967827773}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901168, "name": "Huila", "population": 1135943},
+    "date": "2023-06-04",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 337101, "prevalence": 0.29675872821083454},
+      "rcsi": {"people": 379512, "prevalence": 0.33409422831955476},
+      "marketAccess": {"people": 469532, "prevalence": 0.5065734781509531}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901169, "name": "La Guajira", "population": 1164323},
+    "date": "2023-06-04",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 390658, "prevalence": 0.335523733534423},
+      "rcsi": {"people": 537573, "prevalence": 0.4617043552347587},
+      "marketAccess": {"people": 650352, "prevalence": 0.6472187999403012}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901170, "name": "Magdalena", "population": 1376241},
+    "date": "2023-06-04",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 461761, "prevalence": 0.3355233567376644},
+      "rcsi": {"people": 635417, "prevalence": 0.46170474502648884},
+      "marketAccess": {"people": 768722, "prevalence": 0.6472185239803198}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901171, "name": "Meta", "population": 1008063},
+    "date": "2023-06-04",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 421910, "prevalence": 0.41853534947716564},
+      "rcsi": {"people": 347254, "prevalence": 0.3444764860926351},
+      "marketAccess": {"people": 491699, "prevalence": 0.5897947323493996}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901172, "name": "Nari\u00f1o", "population": 1716051},
+    "date": "2023-06-04",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 532701, "prevalence": 0.3104225923355425},
+      "rcsi": {"people": 640867, "prevalence": 0.3734545185428638},
+      "marketAccess": {"people": 735101, "prevalence": 0.48704116730342734}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901173, "name": "Norte De Santander", "population": 1232902},
+    "date": "2023-06-04",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 365874, "prevalence": 0.296758379822565},
+      "rcsi": {"people": 411906, "prevalence": 0.33409468068021625},
+      "marketAccess": {"people": 509610, "prevalence": 0.5065743273006645}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901174, "name": "Quindio", "population": 554714},
+    "date": "2023-06-04",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 164616, "prevalence": 0.2967583295175532},
+      "rcsi": {"people": 185327, "prevalence": 0.33409468663130903},
+      "marketAccess": {"people": 229286, "prevalence": 0.5065731919517685}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901175, "name": "Risaralda", "population": 884734},
+    "date": "2023-06-04",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 262552, "prevalence": 0.2967581216501231},
+      "rcsi": {"people": 295585, "prevalence": 0.3340947674668318},
+      "marketAccess": {"people": 365697, "prevalence": 0.5065735059337168}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901176, "name": "Santander", "population": 2124283},
+    "date": "2023-06-04",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 630400, "prevalence": 0.29675895349160164},
+      "rcsi": {"people": 709712, "prevalence": 0.33409484517834953},
+      "marketAccess": {"people": 878055, "prevalence": 0.5065742833046732}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901177, "name": "Sucre", "population": 805598},
+    "date": "2023-06-04",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 270297, "prevalence": 0.33552342483471903},
+      "rcsi": {"people": 371948, "prevalence": 0.46170422468774747},
+      "marketAccess": {"people": 449980, "prevalence": 0.6472185442805946}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901178, "name": "Tolima", "population": 1371141},
+    "date": "2023-06-04",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 406898, "prevalence": 0.2967586849200775},
+      "rcsi": {"people": 458091, "prevalence": 0.334094742991421},
+      "marketAccess": {"people": 566750, "prevalence": 0.5065743588298337}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901179, "name": "Valle Del Cauca", "population": 4410222},
+    "date": "2023-06-04",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 1369034, "prevalence": 0.31042292202070554},
+      "rcsi": {"people": 1647019, "prevalence": 0.37345489637483104},
+      "marketAccess": {"people": 1889197, "prevalence": 0.48704113705075386}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901180, "name": "Arauca", "population": 354798},
+    "date": "2023-06-04",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 148495, "prevalence": 0.4185339263468227},
+      "rcsi": {"people": 122219, "prevalence": 0.34447488430036244},
+      "marketAccess": {"people": 173058, "prevalence": 0.5897931935817757}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901181, "name": "Casanare", "population": 711638},
+    "date": "2023-06-04",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 297846, "prevalence": 0.4185358286094897},
+      "rcsi": {"people": 245142, "prevalence": 0.3444757025341536},
+      "marketAccess": {"people": 347113, "prevalence": 0.5897948657727248}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901182, "name": "Putumayo", "population": 426548},
+    "date": "2023-06-04",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 178525, "prevalence": 0.4185343736226638},
+      "rcsi": {"people": 146935, "prevalence": 0.3444747132796309},
+      "marketAccess": {"people": 208056, "prevalence": 0.589795661687152}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901183, "name": "Archipi\u00e9lago De San Andr\u00e9s", "population": 80342},
+    "date": "2023-06-04",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 26956, "prevalence": 0.33551567050857584},
+      "rcsi": {"people": 37094, "prevalence": 0.46170122725349133},
+      "marketAccess": {"people": 44876, "prevalence": 0.6472135796862836}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901184, "name": "Amazonas", "population": 111845},
+    "date": "2023-06-04",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 46811, "prevalence": 0.4185345791050114},
+      "rcsi": {"people": 38528, "prevalence": 0.3444767311904868},
+      "marketAccess": {"people": 54554, "prevalence": 0.589792525711024}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901185, "name": "Guain\u00eda", "population": 91617},
+    "date": "2023-06-04",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 38345, "prevalence": 0.41853586124845826},
+      "rcsi": {"people": 31559, "prevalence": 0.34446663828765406},
+      "marketAccess": {"people": 44687, "prevalence": 0.5897858817338071}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901186, "name": "Guaviare", "population": 144347},
+    "date": "2023-06-04",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 60414, "prevalence": 0.4185331181112181},
+      "rcsi": {"people": 49724, "prevalence": 0.3444754653716392},
+      "marketAccess": {"people": 70407, "prevalence": 0.5897898801213656}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901187, "name": "Vaup\u00e9s", "population": 80658},
+    "date": "2023-06-04",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 33758, "prevalence": 0.4185325696149173},
+      "rcsi": {"people": 27784, "prevalence": 0.34446676089166606},
+      "marketAccess": {"people": 39342, "prevalence": 0.5897911126912871}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901188, "name": "Vichada", "population": 76364},
+    "date": "2023-06-04",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 31961, "prevalence": 0.41853491173851554},
+      "rcsi": {"people": 26305, "prevalence": 0.3444685977685821},
+      "marketAccess": {"people": 37247, "prevalence": 0.589782482298477}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901156, "name": "Antioquia", "population": 6226346},
+    "date": "2023-06-05",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 1844455, "prevalence": 0.29623393881419374},
+      "rcsi": {"people": 2121384, "prevalence": 0.34071090813135024},
+      "marketAccess": {"people": 2646769, "prevalence": 0.5182151160011306}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901157, "name": "Atl\u00e1ntico", "population": 2420044},
+    "date": "2023-06-05",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 753354, "prevalence": 0.31129764582792707},
+      "rcsi": {"people": 889567, "prevalence": 0.3675829860944677},
+      "marketAccess": {"people": 1071215, "prevalence": 0.5048193596459133}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901158, "name": "Bogot\u00e1, D.c.", "population": 7899968},
+    "date": "2023-06-05",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 2340239, "prevalence": 0.29623398474525464},
+      "rcsi": {"people": 2691605, "prevalence": 0.34071087376556464},
+      "marketAccess": {"people": 3358213, "prevalence": 0.5182152566818256}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901159, "name": "Bol\u00edvar", "population": 2562104},
+    "date": "2023-06-05",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 758982, "prevalence": 0.29623387653272465},
+      "rcsi": {"people": 872937, "prevalence": 0.34071099377698955},
+      "marketAccess": {"people": 1089129, "prevalence": 0.518214852408333}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901160, "name": "Boyac\u00e1", "population": 1162875},
+    "date": "2023-06-05",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 344483, "prevalence": 0.29623390304202946},
+      "rcsi": {"people": 396204, "prevalence": 0.34071073847146083},
+      "marketAccess": {"people": 494328, "prevalence": 0.5182143860582542}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901161, "name": "Caldas", "population": 839290},
+    "date": "2023-06-05",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 248626, "prevalence": 0.2962337213597207},
+      "rcsi": {"people": 285955, "prevalence": 0.3407106006267202},
+      "marketAccess": {"people": 356775, "prevalence": 0.5182146121437895}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901162, "name": "Caquet\u00e1", "population": 521781},
+    "date": "2023-06-05",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 221779, "prevalence": 0.42504230702152823},
+      "rcsi": {"people": 179972, "prevalence": 0.344918653611381},
+      "marketAccess": {"people": 266152, "prevalence": 0.611106331157039}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901163, "name": "Cauca", "population": 1447061},
+    "date": "2023-06-05",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 450467, "prevalence": 0.3112978651210972},
+      "rcsi": {"people": 531915, "prevalence": 0.3675829837166505},
+      "marketAccess": {"people": 640531, "prevalence": 0.5048192796131501}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901164, "name": "Cesar", "population": 971502},
+    "date": "2023-06-05",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 321606, "prevalence": 0.33103997727230616},
+      "rcsi": {"people": 446702, "prevalence": 0.4598055382284339},
+      "marketAccess": {"people": 546812, "prevalence": 0.6565512103087889}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901165, "name": "C\u00f3rdoba", "population": 1988891},
+    "date": "2023-06-05",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 658402, "prevalence": 0.33103976034885774},
+      "rcsi": {"people": 914504, "prevalence": 0.4598059923847008},
+      "marketAccess": {"people": 1119453, "prevalence": 0.6565520330969606}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901166, "name": "Cundinamarca", "population": 3204037},
+    "date": "2023-06-05",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 949144, "prevalence": 0.2962337825686782},
+      "rcsi": {"people": 1091650, "prevalence": 0.34071079703511536},
+      "marketAccess": {"people": 1362010, "prevalence": 0.5182150982191941}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901167, "name": "Choc\u00f3", "population": 542415},
+    "date": "2023-06-05",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 168852, "prevalence": 0.31129670086557343},
+      "rcsi": {"people": 199382, "prevalence": 0.3675820174589567},
+      "marketAccess": {"people": 240096, "prevalence": 0.5048191858819024}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901168, "name": "Huila", "population": 1135943},
+    "date": "2023-06-05",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 336504, "prevalence": 0.29623317367156626},
+      "rcsi": {"people": 387028, "prevalence": 0.340710757493994},
+      "marketAccess": {"people": 482880, "prevalence": 0.5182149847164532}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901169, "name": "La Guajira", "population": 1164323},
+    "date": "2023-06-05",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 385437, "prevalence": 0.33103958265876393},
+      "rcsi": {"people": 535362, "prevalence": 0.45980539764309386},
+      "marketAccess": {"people": 655342, "prevalence": 0.6565514943187971}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901170, "name": "Magdalena", "population": 1376241},
+    "date": "2023-06-05",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 455590, "prevalence": 0.33103940370908874},
+      "rcsi": {"people": 632803, "prevalence": 0.4598053683911466},
+      "marketAccess": {"people": 774621, "prevalence": 0.6565518707902643}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901171, "name": "Meta", "population": 1008063},
+    "date": "2023-06-05",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 428470, "prevalence": 0.4250428792644904},
+      "rcsi": {"people": 347701, "prevalence": 0.34491991075954576},
+      "marketAccess": {"people": 514197, "prevalence": 0.6111068807263825}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901172, "name": "Nari\u00f1o", "population": 1716051},
+    "date": "2023-06-05",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 534203, "prevalence": 0.31129785769770246},
+      "rcsi": {"people": 630791, "prevalence": 0.36758289817726864},
+      "marketAccess": {"people": 759597, "prevalence": 0.5048189725175949}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901173, "name": "Norte De Santander", "population": 1232902},
+    "date": "2023-06-05",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 365227, "prevalence": 0.2962336016974585},
+      "rcsi": {"people": 420063, "prevalence": 0.340710778310036},
+      "marketAccess": {"people": 524096, "prevalence": 0.5182145188255158}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901174, "name": "Quindio", "population": 554714},
+    "date": "2023-06-05",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 164325, "prevalence": 0.2962337348615683},
+      "rcsi": {"people": 188997, "prevalence": 0.34071070858135905},
+      "marketAccess": {"people": 235804, "prevalence": 0.5182142241140512}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901175, "name": "Risaralda", "population": 884734},
+    "date": "2023-06-05",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 262088, "prevalence": 0.296233670233087},
+      "rcsi": {"people": 301438, "prevalence": 0.3407103151907805},
+      "marketAccess": {"people": 376093, "prevalence": 0.518214810990488}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901176, "name": "Santander", "population": 2124283},
+    "date": "2023-06-05",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 629284, "prevalence": 0.2962335997604839},
+      "rcsi": {"people": 723766, "prevalence": 0.3407107245126944},
+      "marketAccess": {"people": 903015, "prevalence": 0.5182148801942946}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901177, "name": "Sucre", "population": 805598},
+    "date": "2023-06-05",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 266685, "prevalence": 0.33103979900645236},
+      "rcsi": {"people": 370418, "prevalence": 0.45980501441165444},
+      "marketAccess": {"people": 453433, "prevalence": 0.6565518255442478}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901178, "name": "Tolima", "population": 1371141},
+    "date": "2023-06-05",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 406178, "prevalence": 0.2962335748110515},
+      "rcsi": {"people": 467162, "prevalence": 0.34071040104555256},
+      "marketAccess": {"people": 582861, "prevalence": 0.5182152248787628}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901179, "name": "Valle Del Cauca", "population": 4410222},
+    "date": "2023-06-05",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 1372893, "prevalence": 0.3112979346617925},
+      "rcsi": {"people": 1621122, "prevalence": 0.3675828563732166},
+      "marketAccess": {"people": 1952153, "prevalence": 0.5048193804830465}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901180, "name": "Arauca", "population": 354798},
+    "date": "2023-06-05",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 150804, "prevalence": 0.4250418548018873},
+      "rcsi": {"people": 122376, "prevalence": 0.3449173896132447},
+      "marketAccess": {"people": 180977, "prevalence": 0.6111073843376771}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901181, "name": "Casanare", "population": 711638},
+    "date": "2023-06-05",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 302476, "prevalence": 0.4250419454835183},
+      "rcsi": {"people": 245458, "prevalence": 0.3449197485238281},
+      "marketAccess": {"people": 362995, "prevalence": 0.6111063863910154}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901182, "name": "Putumayo", "population": 426548},
+    "date": "2023-06-05",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 181301, "prevalence": 0.4250424336768664},
+      "rcsi": {"people": 147124, "prevalence": 0.3449178052645892},
+      "marketAccess": {"people": 217575, "prevalence": 0.611105780908036}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901183, "name": "Archipi\u00e9lago De San Andr\u00e9s", "population": 80342},
+    "date": "2023-06-05",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 26596, "prevalence": 0.33103482611834406},
+      "rcsi": {"people": 36941, "prevalence": 0.45979686838764283},
+      "marketAccess": {"people": 45220, "prevalence": 0.6565415072367918}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901184, "name": "Amazonas", "population": 111845},
+    "date": "2023-06-05",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 47538, "prevalence": 0.42503464616209935},
+      "rcsi": {"people": 38577, "prevalence": 0.3449148374983236},
+      "marketAccess": {"people": 57050, "prevalence": 0.6111029563738997}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901185, "name": "Guain\u00eda", "population": 91617},
+    "date": "2023-06-05",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 38941, "prevalence": 0.42504120414333585},
+      "rcsi": {"people": 31600, "prevalence": 0.3449141534867983},
+      "marketAccess": {"people": 46732, "prevalence": 0.6111018678640824}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901186, "name": "Guaviare", "population": 144347},
+    "date": "2023-06-05",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 61353, "prevalence": 0.42503827582145803},
+      "rcsi": {"people": 49788, "prevalence": 0.34491884140300805},
+      "marketAccess": {"people": 73629, "prevalence": 0.6111058619897907}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901187, "name": "Vaup\u00e9s", "population": 80658},
+    "date": "2023-06-05",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 34283, "prevalence": 0.42504153338788464},
+      "rcsi": {"people": 27820, "prevalence": 0.3449130898360981},
+      "marketAccess": {"people": 41142, "prevalence": 0.6111013746777827}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901188, "name": "Vichada", "population": 76364},
+    "date": "2023-06-05",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 32457, "prevalence": 0.4250301189041957},
+      "rcsi": {"people": 26339, "prevalence": 0.3449138337436488},
+      "marketAccess": {"people": 38952, "prevalence": 0.611105795473151}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901156, "name": "Antioquia", "population": 6226346},
+    "date": "2023-06-06",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 1838559, "prevalence": 0.29528699497265326},
+      "rcsi": {"people": 2153201, "prevalence": 0.3458209678678313},
+      "marketAccess": {"people": 2624909, "prevalence": 0.5091588381701186}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901157, "name": "Atl\u00e1ntico", "population": 2420044},
+    "date": "2023-06-06",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 781129, "prevalence": 0.32277470988130796},
+      "rcsi": {"people": 902640, "prevalence": 0.37298495399257203},
+      "marketAccess": {"people": 1085375, "prevalence": 0.5086204819552891}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901158, "name": "Bogot\u00e1, D.c.", "population": 7899968},
+    "date": "2023-06-06",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 2332757, "prevalence": 0.29528689230133587},
+      "rcsi": {"people": 2731974, "prevalence": 0.34582089446438263},
+      "marketAccess": {"people": 3330476, "prevalence": 0.5091588091425584}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901159, "name": "Bol\u00edvar", "population": 2562104},
+    "date": "2023-06-06",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 756556, "prevalence": 0.29528699849810935},
+      "rcsi": {"people": 886029, "prevalence": 0.3458208566084749},
+      "marketAccess": {"people": 1080134, "prevalence": 0.5091586990056305}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901160, "name": "Boyac\u00e1", "population": 1162875},
+    "date": "2023-06-06",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 343381, "prevalence": 0.2952862517467484},
+      "rcsi": {"people": 402146, "prevalence": 0.34582048801461895},
+      "marketAccess": {"people": 490246, "prevalence": 0.5091588661499588}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901161, "name": "Caldas", "population": 839290},
+    "date": "2023-06-06",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 247831, "prevalence": 0.2952864921540826},
+      "rcsi": {"people": 290244, "prevalence": 0.3458208724040558},
+      "marketAccess": {"people": 353828, "prevalence": 0.5091578392655308}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901162, "name": "Caquet\u00e1", "population": 521781},
+    "date": "2023-06-06",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 220730, "prevalence": 0.42303188502456013},
+      "rcsi": {"people": 174426, "prevalence": 0.3342896732537214},
+      "marketAccess": {"people": 266922, "prevalence": 0.6159982556021628}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901163, "name": "Cauca", "population": 1447061},
+    "date": "2023-06-06",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 467075, "prevalence": 0.3227749210295903},
+      "rcsi": {"people": 539732, "prevalence": 0.3729849674616343},
+      "marketAccess": {"people": 648998, "prevalence": 0.508620444078279}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901164, "name": "Cesar", "population": 971502},
+    "date": "2023-06-06",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 314154, "prevalence": 0.3233693806085834},
+      "rcsi": {"people": 443179, "prevalence": 0.45617919469028373},
+      "marketAccess": {"people": 549601, "prevalence": 0.6589099754859815}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901165, "name": "C\u00f3rdoba", "population": 1988891},
+    "date": "2023-06-06",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 643147, "prevalence": 0.3233696567584649},
+      "rcsi": {"people": 907292, "prevalence": 0.4561798509822811},
+      "marketAccess": {"people": 1125163, "prevalence": 0.6589109534167793}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901166, "name": "Cundinamarca", "population": 3204037},
+    "date": "2023-06-06",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 946110, "prevalence": 0.29528685218054596},
+      "rcsi": {"people": 1108023, "prevalence": 0.34582091280468985},
+      "marketAccess": {"people": 1350761, "prevalence": 0.5091588255580284}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901167, "name": "Choc\u00f3", "population": 542415},
+    "date": "2023-06-06",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 175078, "prevalence": 0.3227749970041389},
+      "rcsi": {"people": 202312, "prevalence": 0.372983785477909},
+      "marketAccess": {"people": 243269, "prevalence": 0.5086187568543343}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901168, "name": "Huila", "population": 1135943},
+    "date": "2023-06-06",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 335429, "prevalence": 0.29528682337053885},
+      "rcsi": {"people": 392832, "prevalence": 0.34582016879368066},
+      "marketAccess": {"people": 478891, "prevalence": 0.5091578235396335}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901169, "name": "La Guajira", "population": 1164323},
+    "date": "2023-06-06",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 376507, "prevalence": 0.32336988962684754},
+      "rcsi": {"people": 531140, "prevalence": 0.4561792560998967},
+      "marketAccess": {"people": 658685, "prevalence": 0.6589107063030085}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901170, "name": "Magdalena", "population": 1376241},
+    "date": "2023-06-06",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 445035, "prevalence": 0.32336996209239516},
+      "rcsi": {"people": 627813, "prevalence": 0.4561795499480106},
+      "marketAccess": {"people": 778572, "prevalence": 0.6589106944340151}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901171, "name": "Meta", "population": 1008063},
+    "date": "2023-06-06",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 426442, "prevalence": 0.42303110023877477},
+      "rcsi": {"people": 336985, "prevalence": 0.33428962277159263},
+      "marketAccess": {"people": 515685, "prevalence": 0.6159992695418844}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901172, "name": "Nari\u00f1o", "population": 1716051},
+    "date": "2023-06-06",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 553898, "prevalence": 0.3227747893273568},
+      "rcsi": {"people": 640061, "prevalence": 0.3729848355322773},
+      "marketAccess": {"people": 769638, "prevalence": 0.5086202006723368}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901173, "name": "Norte De Santander", "population": 1232902},
+    "date": "2023-06-06",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 364059, "prevalence": 0.295286243351053},
+      "rcsi": {"people": 426363, "prevalence": 0.34582067350040796},
+      "marketAccess": {"people": 519768, "prevalence": 0.5091588148554431}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901174, "name": "Quindio", "population": 554714},
+    "date": "2023-06-06",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 163799, "prevalence": 0.29528549847308705},
+      "rcsi": {"people": 191831, "prevalence": 0.3458196476021878},
+      "marketAccess": {"people": 233856, "prevalence": 0.5091569496047411}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901175, "name": "Risaralda", "population": 884734},
+    "date": "2023-06-06",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 261250, "prevalence": 0.29528649288938824},
+      "rcsi": {"people": 305959, "prevalence": 0.34582032565720316},
+      "marketAccess": {"people": 372987, "prevalence": 0.5091588110488463}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901176, "name": "Santander", "population": 2124283},
+    "date": "2023-06-06",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 627273, "prevalence": 0.295286927400916},
+      "rcsi": {"people": 734621, "prevalence": 0.3458206839672492},
+      "marketAccess": {"people": 895557, "prevalence": 0.5091586719347968}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901177, "name": "Sucre", "population": 805598},
+    "date": "2023-06-06",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 260506, "prevalence": 0.32336972038162953},
+      "rcsi": {"people": 367497, "prevalence": 0.45617913649239444},
+      "marketAccess": {"people": 455746, "prevalence": 0.6589109935520673}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901178, "name": "Tolima", "population": 1371141},
+    "date": "2023-06-06",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 404880, "prevalence": 0.295286917975613},
+      "rcsi": {"people": 474169, "prevalence": 0.34582074345380964},
+      "marketAccess": {"people": 578046, "prevalence": 0.5091579962607721}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901179, "name": "Valle Del Cauca", "population": 4410222},
+    "date": "2023-06-06",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 1423509, "prevalence": 0.3227749079298049},
+      "rcsi": {"people": 1644946, "prevalence": 0.3729848520097174},
+      "marketAccess": {"people": 1977958, "prevalence": 0.5086205549427677}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901180, "name": "Arauca", "population": 354798},
+    "date": "2023-06-06",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 150090, "prevalence": 0.42302944210508514},
+      "rcsi": {"people": 118605, "prevalence": 0.3342888065885377},
+      "marketAccess": {"people": 181500, "prevalence": 0.6159973433069458}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901181, "name": "Casanare", "population": 711638},
+    "date": "2023-06-06",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 301045, "prevalence": 0.4230310916505302},
+      "rcsi": {"people": 237893, "prevalence": 0.33428934373937313},
+      "marketAccess": {"people": 364046, "prevalence": 0.61599970742417}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901182, "name": "Putumayo", "population": 426548},
+    "date": "2023-06-06",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 180443, "prevalence": 0.42303093672927783},
+      "rcsi": {"people": 142590, "prevalence": 0.33428828642966324},
+      "marketAccess": {"people": 218205, "prevalence": 0.6159992178315793}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901183, "name": "Archipi\u00e9lago De San Andr\u00e9s", "population": 80342},
+    "date": "2023-06-06",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 25980, "prevalence": 0.3233676034950586},
+      "rcsi": {"people": 36650, "prevalence": 0.4561748525055388},
+      "marketAccess": {"people": 45451, "prevalence": 0.6589054071713475}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901184, "name": "Amazonas", "population": 111845},
+    "date": "2023-06-06",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 47314, "prevalence": 0.4230318744691314},
+      "rcsi": {"people": 37388, "prevalence": 0.3342840538244892},
+      "marketAccess": {"people": 57215, "prevalence": 0.6159943109416105}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901185, "name": "Guain\u00eda", "population": 91617},
+    "date": "2023-06-06",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 38756, "prevalence": 0.4230219282447581},
+      "rcsi": {"people": 30626, "prevalence": 0.33428293875590775},
+      "marketAccess": {"people": 46867, "prevalence": 0.6159911333548339}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901186, "name": "Guaviare", "population": 144347},
+    "date": "2023-06-06",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 61063, "prevalence": 0.4230292281793179},
+      "rcsi": {"people": 48253, "prevalence": 0.33428474440064565},
+      "marketAccess": {"people": 73842, "prevalence": 0.6159976587474782}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901187, "name": "Vaup\u00e9s", "population": 80658},
+    "date": "2023-06-06",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 34120, "prevalence": 0.4230206551117062},
+      "rcsi": {"people": 26963, "prevalence": 0.33428798135336857},
+      "marketAccess": {"people": 41261, "prevalence": 0.615992852662027}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901188, "name": "Vichada", "population": 76364},
+    "date": "2023-06-06",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 32304, "prevalence": 0.42302655701639513},
+      "rcsi": {"people": 25527, "prevalence": 0.33428055104499504},
+      "marketAccess": {"people": 39064, "prevalence": 0.61598681326917}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901156, "name": "Antioquia", "population": 6226346},
+    "date": "2023-06-07",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 1789607, "prevalence": 0.28742491984865604},
+      "rcsi": {"people": 2140468, "prevalence": 0.3437759482046131},
+      "marketAccess": {"people": 2686848, "prevalence": 0.5160945692183884}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901157, "name": "Atl\u00e1ntico", "population": 2420044},
+    "date": "2023-06-07",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 810821, "prevalence": 0.3350439082925765},
+      "rcsi": {"people": 899145, "prevalence": 0.37154076537451386},
+      "marketAccess": {"people": 1100512, "prevalence": 0.5084997194820243}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901158, "name": "Bogot\u00e1, D.c.", "population": 7899968},
+    "date": "2023-06-07",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 2270648, "prevalence": 0.28742496172136395},
+      "rcsi": {"people": 2715819, "prevalence": 0.3437759494722004},
+      "marketAccess": {"people": 3409065, "prevalence": 0.516094690926425}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901159, "name": "Bol\u00edvar", "population": 2562104},
+    "date": "2023-06-07",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 736412, "prevalence": 0.28742471031620886},
+      "rcsi": {"people": 880789, "prevalence": 0.34377566250238084},
+      "marketAccess": {"people": 1105622, "prevalence": 0.5160946523619864}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901160, "name": "Boyac\u00e1", "population": 1162875},
+    "date": "2023-06-07",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 334239, "prevalence": 0.2874247017091261},
+      "rcsi": {"people": 399768, "prevalence": 0.34377555627217027},
+      "marketAccess": {"people": 501814, "prevalence": 0.5160944409811755}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901161, "name": "Caldas", "population": 839290},
+    "date": "2023-06-07",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 241232, "prevalence": 0.2874238940056476},
+      "rcsi": {"people": 288527, "prevalence": 0.34377509561653297},
+      "marketAccess": {"people": 362177, "prevalence": 0.5160933464811397}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901162, "name": "Caquet\u00e1", "population": 521781},
+    "date": "2023-06-07",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 225390, "prevalence": 0.43196283498249266},
+      "rcsi": {"people": 176062, "prevalence": 0.33742508830333034},
+      "marketAccess": {"people": 271321, "prevalence": 0.620977972127264}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901163, "name": "Cauca", "population": 1447061},
+    "date": "2023-06-07",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 484829, "prevalence": 0.3350439269664513},
+      "rcsi": {"people": 537642, "prevalence": 0.3715406606908762},
+      "marketAccess": {"people": 658049, "prevalence": 0.5084995722570074}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901164, "name": "Cesar", "population": 971502},
+    "date": "2023-06-07",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 324202, "prevalence": 0.3337121282303073},
+      "rcsi": {"people": 427245, "prevalence": 0.4397777873848947},
+      "marketAccess": {"people": 540265, "prevalence": 0.6477126318457279}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901165, "name": "C\u00f3rdoba", "population": 1988891},
+    "date": "2023-06-07",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 663718, "prevalence": 0.3337126066737695},
+      "rcsi": {"people": 874670, "prevalence": 0.43977774548730925},
+      "marketAccess": {"people": 1106050, "prevalence": 0.6477135908722899}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901166, "name": "Cundinamarca", "population": 3204037},
+    "date": "2023-06-07",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 920920, "prevalence": 0.28742489553023265},
+      "rcsi": {"people": 1101471, "prevalence": 0.3437759925993364},
+      "marketAccess": {"people": 1382634, "prevalence": 0.5160944055543646}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901167, "name": "Choc\u00f3", "population": 542415},
+    "date": "2023-06-07",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 181732, "prevalence": 0.33504235686697453},
+      "rcsi": {"people": 201529, "prevalence": 0.37154024132813435},
+      "marketAccess": {"people": 246662, "prevalence": 0.5084985921817252}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901168, "name": "Huila", "population": 1135943},
+    "date": "2023-06-07",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 326498, "prevalence": 0.28742463310218913},
+      "rcsi": {"people": 390509, "prevalence": 0.3437751718176},
+      "marketAccess": {"people": 490192, "prevalence": 0.5160943698166652}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901169, "name": "La Guajira", "population": 1164323},
+    "date": "2023-06-07",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 388549, "prevalence": 0.33371238049922575},
+      "rcsi": {"people": 512043, "prevalence": 0.4397774500718443},
+      "marketAccess": {"people": 647496, "prevalence": 0.6477133458223882}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901170, "name": "Magdalena", "population": 1376241},
+    "date": "2023-06-07",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 459269, "prevalence": 0.3337126273668638},
+      "rcsi": {"people": 605240, "prevalence": 0.43977762615704663},
+      "marketAccess": {"people": 765346, "prevalence": 0.6477129156821418}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901171, "name": "Meta", "population": 1008063},
+    "date": "2023-06-07",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 435445, "prevalence": 0.4319620896709829},
+      "rcsi": {"people": 340147, "prevalence": 0.33742633148920254},
+      "marketAccess": {"people": 524183, "prevalence": 0.6209781281047256}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901172, "name": "Nari\u00f1o", "population": 1716051},
+    "date": "2023-06-07",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 574952, "prevalence": 0.3350436554624542},
+      "rcsi": {"people": 637583, "prevalence": 0.37154082250469245},
+      "marketAccess": {"people": 780372, "prevalence": 0.5084996813165706}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901173, "name": "Norte De Santander", "population": 1232902},
+    "date": "2023-06-07",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 354366, "prevalence": 0.28742430460815216},
+      "rcsi": {"people": 423842, "prevalence": 0.3437759043297845},
+      "marketAccess": {"people": 532032, "prevalence": 0.5160937968068741}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901174, "name": "Quindio", "population": 554714},
+    "date": "2023-06-07",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 159438, "prevalence": 0.28742378955642006},
+      "rcsi": {"people": 190697, "prevalence": 0.34377535090154565},
+      "marketAccess": {"people": 239375, "prevalence": 0.516094351855992}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901175, "name": "Risaralda", "population": 884734},
+    "date": "2023-06-07",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 254294, "prevalence": 0.2874242427667525},
+      "rcsi": {"people": 304150, "prevalence": 0.34377564330069826},
+      "marketAccess": {"people": 381788, "prevalence": 0.5160942236312203}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901176, "name": "Santander", "population": 2124283},
+    "date": "2023-06-07",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 610572, "prevalence": 0.28742498056991467},
+      "rcsi": {"people": 730277, "prevalence": 0.34377575869128546},
+      "marketAccess": {"people": 916689, "prevalence": 0.5160943303606977}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901177, "name": "Sucre", "population": 805598},
+    "date": "2023-06-07",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 268838, "prevalence": 0.33371234784594805},
+      "rcsi": {"people": 354284, "prevalence": 0.43977765585316747},
+      "marketAccess": {"people": 448004, "prevalence": 0.6477131951806013}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901178, "name": "Tolima", "population": 1371141},
+    "date": "2023-06-07",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 394100, "prevalence": 0.2874248527321406},
+      "rcsi": {"people": 471365, "prevalence": 0.3437757313069918},
+      "marketAccess": {"people": 591687, "prevalence": 0.5160946437645149}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901179, "name": "Valle Del Cauca", "population": 4410222},
+    "date": "2023-06-07",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 1477618, "prevalence": 0.3350439048193039},
+      "rcsi": {"people": 1638578, "prevalence": 0.371540933767053},
+      "marketAccess": {"people": 2005544, "prevalence": 0.5084999803869447}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901180, "name": "Arauca", "population": 354798},
+    "date": "2023-06-07",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 153259, "prevalence": 0.43196128501288056},
+      "rcsi": {"people": 119718, "prevalence": 0.33742580285119983},
+      "marketAccess": {"people": 184491, "prevalence": 0.6209763614536136}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901181, "name": "Casanare", "population": 711638},
+    "date": "2023-06-07",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 307401, "prevalence": 0.4319625989618317},
+      "rcsi": {"people": 240125, "prevalence": 0.33742576984365646},
+      "marketAccess": {"people": 370045, "prevalence": 0.620978346314393}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901182, "name": "Putumayo", "population": 426548},
+    "date": "2023-06-07",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 184252, "prevalence": 0.43196076408751183},
+      "rcsi": {"people": 143928, "prevalence": 0.33742509635492374},
+      "marketAccess": {"people": 221801, "prevalence": 0.6209786035230825}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901183, "name": "Archipi\u00e9lago De San Andr\u00e9s", "population": 80342},
+    "date": "2023-06-07",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 26811, "prevalence": 0.33371088596251025},
+      "rcsi": {"people": 35332, "prevalence": 0.43976998332130146},
+      "marketAccess": {"people": 44679, "prevalence": 0.6477091583750845}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901184, "name": "Amazonas", "population": 111845},
+    "date": "2023-06-07",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 48312, "prevalence": 0.43195493763690823},
+      "rcsi": {"people": 37739, "prevalence": 0.33742232553980955},
+      "marketAccess": {"people": 58158, "prevalence": 0.620974742052728}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901185, "name": "Guain\u00eda", "population": 91617},
+    "date": "2023-06-07",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 39575, "prevalence": 0.4319613172227862},
+      "rcsi": {"people": 30914, "prevalence": 0.3374264601547748},
+      "marketAccess": {"people": 47640, "prevalence": 0.6209787411296042}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901186, "name": "Guaviare", "population": 144347},
+    "date": "2023-06-07",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 62352, "prevalence": 0.4319590985611062},
+      "rcsi": {"people": 48706, "prevalence": 0.3374230153726783},
+      "marketAccess": {"people": 75059, "prevalence": 0.6209777769754867}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901187, "name": "Vaup\u00e9s", "population": 80658},
+    "date": "2023-06-07",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 34841, "prevalence": 0.4319596320265814},
+      "rcsi": {"people": 27216, "prevalence": 0.3374246819906271},
+      "marketAccess": {"people": 41941, "prevalence": 0.6209725155809518}
+    }
+  },
+  {
+    "country": {"id": 57, "name": "Colombia", "iso3": "COL", "iso2": "CO"},
+    "region": {"id": 901188, "name": "Vichada", "population": 76364},
+    "date": "2023-06-07",
+    "dataType": "SURVEY",
+    "metrics": {
+      "fcs": {"people": 32986, "prevalence": 0.4319574668692054},
+      "rcsi": {"people": 25767, "prevalence": 0.33742339322193704},
+      "marketAccess": {"people": 39708, "prevalence": 0.6209696732221559}
+    }
+  }
+]
