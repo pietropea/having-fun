@@ -80,7 +80,7 @@ class DataSource:
             url = self.__get_url(iso3, date_start, date_end)
             info(f"API URL: {url}")
 
-            response = requests.get(url)
+            response = requests.get(url, timeout=45)
             info(f"Data returned successfully")
 
             response_json = response.json()
