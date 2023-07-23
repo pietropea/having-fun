@@ -213,3 +213,6 @@ $RECYCLE.BIN/
 *.lnk
 
 .space
+
+node_modules
+yarn.lock
