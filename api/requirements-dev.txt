@@ -6,3 +6,4 @@ bandit
 pytest
 pre-commit
 types-requests==2.31.0.2
+types-retry==0.9.9.4

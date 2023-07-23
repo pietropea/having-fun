@@ -27,7 +27,7 @@ async def get_average_metrics(
     info(f"get_average_metrics API invoked at: {api_invocation_timestamp}")
 
     try:
-        data = data_source.get_data(iso3, date_start, date_end)
+        data = await data_source.get_data(iso3, date_start, date_end)
         data_returned_timestamp = time.time()
         data_retrieval_time = data_returned_timestamp - api_invocation_timestamp
         info(f"Data returned in: {data_returned_timestamp - api_invocation_timestamp}")
@@ -75,7 +75,7 @@ async def get_national_daily_fcs(
     info(f"get_national_daily_fcs API invoked at: {api_invocation_timestamp}")
 
     try:
-        data = data_source.get_data(iso3, date_start, date_end)
+        data = await data_source.get_data(iso3, date_start, date_end)
         data_returned_timestamp = time.time()
         data_retrieval_time = data_returned_timestamp - api_invocation_timestamp
         info(f"Data returned in: {data_retrieval_time}")

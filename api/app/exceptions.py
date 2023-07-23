@@ -27,3 +27,8 @@ class ThirdPartyAPIIntegrationException(Exception):
     def __init__(self, message="Generic error") -> None:
         self.message = f"{message}"
         super().__init__(self.message)
+
+
+class ThirdPartyAPINotAvailableException(Exception):
+    "Raised when Third-Party API does not respond correctly"
+    pass
