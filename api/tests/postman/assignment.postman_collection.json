@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "3c7f6639-7317-464f-841f-cffce110f381",
+		"name": "WFP Assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3511062"
+	},
+	"item": [
+		{
+			"name": "Metric A",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api_host}}food_security/averages/COL",
+					"host": [
+						"{{api_host}}food_security"
+					],
+					"path": [
+						"averages",
+						"COL"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Metric B /w variance",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{api_host}}food_security/daily_fcs/COL?include_variance=true",
+					"host": [
+						"{{api_host}}food_security"
+					],
+					"path": [
+						"daily_fcs",
+						"COL"
+					],
+					"query": [
+						{
+							"key": "include_variance",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

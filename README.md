@@ -37,7 +37,7 @@ The project UI is  a `next js` project that includes:
 - `TypeScript` as programming language
 - Code formatting using `prettier`
 - Code linting using `lint`
-- Automatic deployment to `Vercel` of the `main` branch
+- Automatic deployment to `Vercel` ([project URL](https://having-fun.vercel.app/))of the `main` branch. 
 
 Additional technical information can be found in the `./ui/README.md`.
 
@@ -68,6 +68,8 @@ And access the local server using the URL displayed in the terminal.
 ![dev-server-api](./img/dev-server-api.png)
 
 Browse the Swagger API documentation locally at `http://127.0.0.1:8000/docs` to get additional information on the API signatures. 
+
+The [Postman API](https://www.postman.com/) collection I utilized during the development is available at `./api/tests/postman/assignment.postman_collection.json`, while running locally the project you can browse the Swagger API doc at `http://127.0.0.1:8000/docs` for more details.
 
 ### Develop the UI
 Once bootstrapped the project, start the local development server with the following command:
