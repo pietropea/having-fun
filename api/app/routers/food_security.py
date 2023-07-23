@@ -17,7 +17,7 @@ router = APIRouter(prefix="/food_security", tags=["Food Security"])
     status_code=status.HTTP_200_OK,
     response_model=schemas.MetricAResponse,
 )
-def get_average_metrics(
+async def get_average_metrics(
     iso3: str,
     date_start: str = config.DEFAULT_DATE_START,
     date_end: str = config.DEFAULT_DATE_END,
@@ -36,7 +36,7 @@ def get_average_metrics(
             status_code=status.HTTP_400_BAD_REQUEST, detail=exception.message
         )
 
-    response = calculate_average_metrics(data)
+    response = await calculate_average_metrics(data)
     debug(f"Calculation completed at: {time.time() - data_returned_timestamp}")
 
     return schemas.MetricAResponse(country=response.country, regions=response.regions)
@@ -47,12 +47,13 @@ def get_average_metrics(
     status_code=status.HTTP_200_OK,
     response_model=schemas.MetricBResponse,
 )
-def get_national_daily_fcs(
+async def get_national_daily_fcs(
     iso3: str,
     date_start: str = "2022-06-01",
     date_end: str = "2023-07-01",
     include_variance: str = "false",
 ):
+    info("get_national_daily_fcs fn invoked")
     # TODO: configure proper app profiler
     start_timestamp = time.time()
 
@@ -66,8 +67,10 @@ def get_national_daily_fcs(
             status_code=status.HTTP_400_BAD_REQUEST, detail=exception.message
         )
 
-    result = calculate_national_daily_fcs(data, include_variance.lower() == "true")
-    debug(f"Calculation completed at: {time.time() - data_returned_timestamp}")
+    result = await calculate_national_daily_fcs(
+        data, include_variance.lower() == "true"
+    )
+    info(f"Calculation completed at: {time.time() - data_returned_timestamp}")
 
     return schemas.MetricBResponse(
         country=result.country,

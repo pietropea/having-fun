@@ -9,11 +9,11 @@ from .schemas import (
     RegionMonthlyAverageMetrics,
     CalculateNationalDailyFCS,
 )
-from .logging import debug
+from .logging import debug, info
 
 
-def calculate_average_metrics(data: List[Any]) -> CalculateAverageMetrics:
-    debug("calculate_average_metrics invocation")
+async def calculate_average_metrics(data: List[Any]) -> CalculateAverageMetrics:
+    info(f"calculate_average_metrics invocation with {len(data)} items")
     ###### ----- Preprocessing and data preparation
     # Dictionary to store the cumulative sum and count of metrics for each ADM1 area per month
     metrics_sum: dict[str, dict] = {}
@@ -22,7 +22,7 @@ def calculate_average_metrics(data: List[Any]) -> CalculateAverageMetrics:
     adm1_areas: dict[str, RegionDataObject] = {}
 
     # Get the country information to enrich the API response
-    debug("First element of the data returned")
+    debug("First data item returned")
     debug(data[0])
     first_data_object = DataObject(**data[0])
     country: CountryDataObject = first_data_object.country
@@ -129,14 +129,16 @@ def calculate_variance(data: List[Any]) -> float:
     return variance
 
 
-def calculate_national_daily_fcs(
+async def calculate_national_daily_fcs(
     data: List[Any], include_variance: bool = False
 ) -> CalculateNationalDailyFCS:
+    info("calculate_national_daily_fcs fn invoked with {len(data)} items")
     ###### ----- Preprocessing and data preparation
     # Dictionary to store the cumulative sum of FCS metrics for each ADM1 area
     daily_metrics_sum: dict[str, float] = {}
     # Get the country information to enrich the API response
-
+    debug("First data item returned")
+    debug(data[0])
     first_data_object = DataObject(**data[0])
     country: CountryDataObject = first_data_object.country
 

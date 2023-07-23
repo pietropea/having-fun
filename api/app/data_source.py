@@ -73,9 +73,7 @@ class DataSource:
         Returns:
             List[DataObject]: The Third-party data.
         """
-        info(
-            f"Get data request with iso3={iso3}, date_start={date_start}, date_end={date_end}"
-        )
+        info(f"Get data for iso3={iso3}, date_start={date_start}, date_end={date_end}")
         try:
             url = self.__get_url(iso3, date_start, date_end)
             info(f"API URL: {url}")
@@ -84,7 +82,7 @@ class DataSource:
             info(f"Data returned successfully")
 
             response_json = response.json()
-            debug(response_json)
+            # debug(response_json)
 
             return response_json
         except InvalidDateException as exception:
