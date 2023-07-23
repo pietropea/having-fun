@@ -1,36 +1,35 @@
 import { useState, useEffect } from 'react';
-import { Box } from '@chakra-ui/react';
+import {
+  Accordion,
+  AccordionButton,
+  AccordionIcon,
+  AccordionItem,
+  AccordionPanel,
+  Box,
+  Divider,
+} from '@chakra-ui/react';
 import { FormattedMessage } from 'react-intl';
 import { MetricTitle } from '../layout/MetricTitle';
 import useMetricB from '../../hooks/useMetricB';
 import { Loading } from '../Loading';
 import { ErrorBox } from '../ErrorBox';
 import { MetricBChart } from '../viz/MetricBChart';
-
-const prepareDataChart = ({ dataCOL, dataBFA }) => {
-  let data = [];
-
-  // console.log(dataCOL);
-  // console.log(dataBFA);
-
-  for (let index = 0; index < dataCOL.fcs_prevalence.length; index++) {
-    const col = dataCOL.fcs_prevalence[index];
-    const bfa = dataBFA.fcs_prevalence[index];
-
-    data.push({
-      name: col.date,
-      col: col.prevalence,
-      bfa: bfa.prevalence,
-    });
-  }
-
-  return data;
-};
+import {
+  Table,
+  Thead,
+  Tbody,
+  Tfoot,
+  Tr,
+  Th,
+  Td,
+  TableCaption,
+  TableContainer,
+} from '@chakra-ui/react';
 
 export const MetricB = () => {
   const dateStart = '2022-06-01';
   const dateEnd = '2023-07-01';
-  const includeVariance = 'true';
+  const includeVariance = 'false';
 
   const {
     data: dataCOL,
@@ -54,13 +53,7 @@ export const MetricB = () => {
     includeVariance,
   });
 
-  console.log(!!errorCOL);
-  console.log(!!errorBFA);
-
   const hasError = !!errorCOL || !!errorBFA;
-  console.log({ hasError });
-  console.log({ dataCOL });
-  console.log({ dataBFA });
 
   return (
     <Box width="100%">
@@ -71,6 +64,8 @@ export const MetricB = () => {
         />
       </MetricTitle>
 
+      <Box p="2rem" />
+
       {(isLoadingCOL || isLoadingBFA) && <Loading />}
 
       {hasError && (
@@ -78,13 +73,49 @@ export const MetricB = () => {
       )}
 
       {!hasError && dataCOL && dataBFA && (
-        <MetricBChart
-          data={prepareDataChart({
-            dataCOL,
-            dataBFA,
-          })}
-        />
+        <MetricBChart dataCOL={dataCOL} dataBFA={dataBFA} />
       )}
+
+      <Accordion allowToggle pt="5em">
+        <AccordionItem>
+          <h2>
+            <AccordionButton>
+              <Box as="span" flex="1" textAlign="left">
+                Logs
+              </Box>
+              <AccordionIcon />
+            </AccordionButton>
+          </h2>
+          <AccordionPanel pb={4}>
+            <TableContainer>
+              <Table variant="simple">
+                <Thead>
+                  <Tr>
+                    <Th>Country</Th>
+                    <Th>Is Loading</Th>
+                    <Th>Has error</Th>
+                    <Th>Data returned</Th>
+                  </Tr>
+                </Thead>
+                <Tbody>
+                  <Tr>
+                    <Td>Colombia</Td>
+                    <Td>{String(isLoadingCOL)}</Td>
+                    <Td>{String(!!errorCOL)}</Td>
+                    <Td>{String(!!dataCOL)}</Td>
+                  </Tr>
+                  <Tr>
+                    <Td>Burkina Faso</Td>
+                    <Td>{String(isLoadingBFA)}</Td>
+                    <Td>{String(!!errorBFA)}</Td>
+                    <Td>{String(!!dataBFA)}</Td>
+                  </Tr>
+                </Tbody>
+              </Table>
+            </TableContainer>
+          </AccordionPanel>
+        </AccordionItem>
+      </Accordion>
     </Box>
   );
 };

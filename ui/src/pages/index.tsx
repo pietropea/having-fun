@@ -13,7 +13,6 @@ const Index = () => {
         width={{
           base: '100%',
         }}
-        height="100vh"
         justifyContent="space-evenly"
       >
         <Metrics />

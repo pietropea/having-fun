@@ -12,7 +12,6 @@ import {
   DrawerHeader,
 } from '@chakra-ui/react';
 import Link from 'next/link';
-import { GiHamburgerMenu } from 'react-icons/gi';
 import { FormattedMessage } from 'react-intl';
 import { createTracker } from './analytics/Tracker';
 
@@ -41,35 +40,8 @@ export const Header = () => {
 
         <Spacer />
 
-        <Box
-          display={{
-            base: 'flex',
-            md: 'none',
-          }}
-        >
-          <Button ref={btnRef} onClick={onOpen}>
-            <GiHamburgerMenu />
-          </Button>
-        </Box>
+        <Box>Candidate ID: 8498371</Box>
       </Flex>
-
-      <Drawer
-        isOpen={isOpen}
-        placement="right"
-        onClose={onClose}
-        finalFocusRef={btnRef}
-      >
-        <DrawerOverlay />
-
-        <DrawerContent>
-          <DrawerCloseButton />
-          <DrawerHeader>
-            <FormattedMessage id="logo" defaultMessage="Having Fun" />
-          </DrawerHeader>
-          <DrawerBody></DrawerBody>
-          <DrawerFooter></DrawerFooter>
-        </DrawerContent>
-      </Drawer>
     </>
   );
 };

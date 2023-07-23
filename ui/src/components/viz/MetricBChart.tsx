@@ -1,3 +1,4 @@
+import { Box, Flex } from '@chakra-ui/react';
 import {
   LineChart,
   Line,
@@ -9,15 +10,33 @@ import {
   ResponsiveContainer,
 } from 'recharts';
 
-export const MetricBChart = ({ data }) => {
-  console.log(data);
+const prepareDataChart = ({ dataCOL, dataBFA }) => {
+  let data = [];
+
+  for (let index = 0; index < dataCOL.fcs_prevalence.length; index++) {
+    const col = dataCOL.fcs_prevalence[index];
+    const bfa = dataBFA.fcs_prevalence[index];
+
+    data.push({
+      name: col.date,
+      col: col.prevalence,
+      bfa: bfa.prevalence,
+    });
+  }
+
+  return data;
+};
+
+export const MetricBChart = ({ dataCOL, dataBFA }) => {
+  const preparedData = prepareDataChart({ dataCOL, dataBFA });
+
   return (
-    <>
-      <ResponsiveContainer width={'100%'}>
+    <Flex alignItems="center" justifyContent="space-evenly">
+      <Box width="100%">
         <LineChart
-          width={500}
-          height={300}
-          data={data}
+          width={800}
+          height={350}
+          data={preparedData}
           margin={{
             top: 5,
             right: 30,
@@ -30,16 +49,10 @@ export const MetricBChart = ({ data }) => {
           <YAxis />
           <Tooltip />
           <Legend />
-          <Line
-            type="monotone"
-            dataKey="col"
-            stroke="#8884d8"
-            // activeDot={{ r: 8 }}
-          />
+          <Line type="monotone" dataKey="col" stroke="#8884d8" />
           <Line type="monotone" dataKey="bfa" stroke="#82ca9d" />
         </LineChart>
-      </ResponsiveContainer>
-      HELLO!
-    </>
+      </Box>
+    </Flex>
   );
 };

@@ -9,11 +9,7 @@ export default class Document extends NextDocument {
           <meta name="robots" content="follow, index" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         </Head>
-        <body
-          style={{
-            minHeight: '100rem',
-          }}
-        >
+        <body>
           <Main />
           <NextScript />
         </body>
