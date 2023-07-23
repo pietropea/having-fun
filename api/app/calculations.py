@@ -132,7 +132,7 @@ def calculate_variance(data: List[Any]) -> float:
 async def calculate_national_daily_fcs(
     data: List[Any], include_variance: bool = False
 ) -> CalculateNationalDailyFCS:
-    info("calculate_national_daily_fcs fn invoked with {len(data)} items")
+    info(f"calculate_national_daily_fcs fn invoked with {len(data)} items")
     ###### ----- Preprocessing and data preparation
     # Dictionary to store the cumulative sum of FCS metrics for each ADM1 area
     daily_metrics_sum: dict[str, float] = {}

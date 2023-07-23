@@ -23,13 +23,14 @@ async def get_average_metrics(
     date_end: str = config.DEFAULT_DATE_END,
 ):
     # TODO: configure proper app profiler
-    start_timestamp = time.time()
-    info(f"get_average_metrics API invoked at: {start_timestamp}")
+    api_invocation_timestamp = time.time()
+    info(f"get_average_metrics API invoked at: {api_invocation_timestamp}")
 
     try:
         data = data_source.get_data(iso3, date_start, date_end)
         data_returned_timestamp = time.time()
-        debug(f"Data returned in: {data_returned_timestamp - start_timestamp}")
+        data_retrieval_time = data_returned_timestamp - api_invocation_timestamp
+        info(f"Data returned in: {data_returned_timestamp - api_invocation_timestamp}")
 
     except ThirdPartyAPIIntegrationException as exception:
         raise HTTPException(
@@ -37,7 +38,23 @@ async def get_average_metrics(
         )
 
     response = await calculate_average_metrics(data)
-    debug(f"Calculation completed at: {time.time() - data_returned_timestamp}")
+    # Profiling information
+    calculation_completed_timestamp = time.time()
+    data_processing_elapsed_time = (
+        calculation_completed_timestamp - data_returned_timestamp
+    )
+    api_total_execution_time = (
+        calculation_completed_timestamp - api_invocation_timestamp
+    )
+    info(
+        f"Calculation completed at: {calculation_completed_timestamp} (took {data_processing_elapsed_time})"
+    )
+    info(
+        f"Percentage of time spent retrieving data: {round(data_retrieval_time / api_total_execution_time * 100, 6)}"
+    )
+    info(
+        f"Percentage of time spent processing data: {round(data_processing_elapsed_time / api_total_execution_time * 100, 6)}"
+    )
 
     return schemas.MetricAResponse(country=response.country, regions=response.regions)
 
@@ -53,14 +70,15 @@ async def get_national_daily_fcs(
     date_end: str = "2023-07-01",
     include_variance: str = "false",
 ):
-    info("get_national_daily_fcs fn invoked")
     # TODO: configure proper app profiler
-    start_timestamp = time.time()
+    api_invocation_timestamp = time.time()
+    info(f"get_national_daily_fcs API invoked at: {api_invocation_timestamp}")
 
     try:
         data = data_source.get_data(iso3, date_start, date_end)
         data_returned_timestamp = time.time()
-        debug(f"Data returned in: {data_returned_timestamp - start_timestamp}")
+        data_retrieval_time = data_returned_timestamp - api_invocation_timestamp
+        info(f"Data returned in: {data_retrieval_time}")
 
     except ThirdPartyAPIIntegrationException as exception:
         raise HTTPException(
@@ -70,7 +88,24 @@ async def get_national_daily_fcs(
     result = await calculate_national_daily_fcs(
         data, include_variance.lower() == "true"
     )
-    info(f"Calculation completed at: {time.time() - data_returned_timestamp}")
+
+    # Profiling information
+    calculation_completed_timestamp = time.time()
+    data_processing_elapsed_time = (
+        calculation_completed_timestamp - data_returned_timestamp
+    )
+    api_total_execution_time = (
+        calculation_completed_timestamp - api_invocation_timestamp
+    )
+    info(
+        f"Calculation completed at: {calculation_completed_timestamp} (took {data_processing_elapsed_time})"
+    )
+    info(
+        f"Percentage of time spent retrieving data: {round(data_retrieval_time / api_total_execution_time * 100, 6)}"
+    )
+    info(
+        f"Percentage of time spent processing data: {round(data_processing_elapsed_time / api_total_execution_time * 100, 6)}"
+    )
 
     return schemas.MetricBResponse(
         country=result.country,
