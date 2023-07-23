@@ -1,7 +1,8 @@
--r requirements.txt
+# -r requirements.txt
 black
 mypy
 safety
 bandit
 pytest
 pre-commit
+types-requests==2.31.0.2
