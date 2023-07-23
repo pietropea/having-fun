@@ -46,4 +46,4 @@ def data():
 
 
 def test_calculate_variance(data):
-    assert calculate_variance(data) == 0.0002734102353496459
+    assert calculate_variance(data) == 0.00018227349023309725

@@ -16,7 +16,7 @@ export default function useMetricA({ iso3, dateStart, dateEnd }) {
 
       mutate()
     } catch (err) {
-      console.log(err)
+      // console.log(err)
     }
   }
 

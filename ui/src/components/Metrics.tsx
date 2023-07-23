@@ -1,4 +1,4 @@
-import { Stack } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 
 import { Divider } from '@chakra-ui/react';
 import { MetricA } from './metrics/MetricA';
@@ -6,12 +6,12 @@ import { MetricB } from './metrics/MetricB';
 
 export const Metrics = () => {
   return (
-    <Stack>
+    <Box width={'100%'}>
       {/* <MetricA />
 
       <Divider /> */}
 
       <MetricB />
-    </Stack>
+    </Box>
   );
 };

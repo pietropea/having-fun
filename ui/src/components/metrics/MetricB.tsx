@@ -4,6 +4,7 @@ import { FormattedMessage } from 'react-intl';
 import { MetricTitle } from '../layout/MetricTitle';
 import useMetricB from '../../hooks/useMetricB';
 import { Loading } from '../Loading';
+import { ErrorBox } from '../ErrorBox';
 import { MetricBChart } from '../viz/MetricBChart';
 
 const prepareDataChart = ({ dataCOL, dataBFA }) => {
@@ -17,7 +18,7 @@ const prepareDataChart = ({ dataCOL, dataBFA }) => {
     const bfa = dataBFA.fcs_prevalence[index];
 
     data.push({
-      name: col.name,
+      name: col.date,
       col: col.prevalence,
       bfa: bfa.prevalence,
     });
@@ -53,8 +54,13 @@ export const MetricB = () => {
     includeVariance,
   });
 
-  console.log(errorCOL);
-  console.log(errorBFA);
+  console.log(!!errorCOL);
+  console.log(!!errorBFA);
+
+  const hasError = !!errorCOL || !!errorBFA;
+  console.log({ hasError });
+  console.log({ dataCOL });
+  console.log({ dataBFA });
 
   return (
     <Box width="100%">
@@ -67,16 +73,18 @@ export const MetricB = () => {
 
       {(isLoadingCOL || isLoadingBFA) && <Loading />}
 
-      {(errorCOL || errorBFA) && <div>OPS</div>}
+      {hasError && (
+        <ErrorBox message="Something went wrong while retrieving you data :/ Please refresh the page" />
+      )}
 
-      {/* {!errorCOL && !errorBFA && dataCOL && dataBFA && (
+      {!hasError && dataCOL && dataBFA && (
         <MetricBChart
           data={prepareDataChart({
             dataCOL,
             dataBFA,
           })}
         />
-      )} */}
+      )}
     </Box>
   );
 };

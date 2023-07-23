@@ -123,8 +123,9 @@ def calculate_variance(data: List[Any]) -> float:
         fcs = extract_FCS_prevalence(entry)
         sum_of_powers += (fcs - daily_metric_average) ** 2
 
-    # 3. Divide the sum of the powers by the list length - 1
-    variance = sum_of_powers / (days_amount - 1)
+    # 3. Divide the sum of the powers by the list length
+    # Subtract 1 "days_amount" to calculate the variance of a sample (variance = sum_of_powers / days_amount - 1)
+    variance = sum_of_powers / days_amount
 
     return variance
 

@@ -12,8 +12,8 @@ const Index = () => {
         px="1rem"
         width={{
           base: '100%',
-          minHeight: '100rem',
         }}
+        height="100vh"
         justifyContent="space-evenly"
       >
         <Metrics />
