@@ -15,8 +15,8 @@ The project includes two components:
 The backend component (API) is written in Python 3.9 and it is based on:
 - [FastAPI framework](https://fastapi.tiangolo.com/)
 
-Features implemented in the project:
-- Github actions configuration form:
+Additional features implemented in the project:
+- Github actions configurations:
   - Code formatting and linting ([black](https://pypi.org/project/black/))
   - Strict type checking ([mypy](https://pypi.org/project/mypy/))
   - Static code analysis ([bandit](https://pypi.org/project/bandit/))
@@ -30,13 +30,13 @@ Additional technical information can be found in the `./api/README.md`.
 ### User Interface
 ![ui](./img/ui.png)
 
-The project UI is  a `next js` project that includes:
-- `react js` as UI framework
-- `chakra ui` for the UI components
-- `recharts` for data visualization
-- `TypeScript` as programming language
-- Code formatting using `prettier`
-- Code linting using `lint`
+The project UI is a `next js` project that includes:
+- `react js` as UI framework.
+- `chakra ui` for the UI components.
+- `recharts` for data visualization.
+- `TypeScript` as programming language.
+- Code formatting using `prettier`.
+- Code linting using `lint`.
 - Automatic deployment to `Vercel` ([project URL](https://having-fun.vercel.app/))of the `main` branch. 
 
 Additional technical information can be found in the `./ui/README.md`.
@@ -48,9 +48,9 @@ Prerequisites:
 - `yarn`
 
 Run the `./scripts/bootstrap.sh` script to initialize your local environment. The script will:
-- Create a `python virtual env` in the `./api` folder and will download the project `dev` dependencies
-- Install the UI dependencies
-- Install a pre-commit hook for code formatting and linting and enforce common programming style.
+- Create a `python virtual env` in the `./api` folder and download the project dependencies.
+- Install the UI dependencies in the `./ui`
+- Install a pre-commit hook for code formatting and linting and enforce common programming style, based on a a light-weighted `python virtual env` in the `root` folder.
 
 
 ### Develop the API
@@ -87,7 +87,8 @@ And access the local server using the URL displayed in the terminal.
 ### Git commit messages
 Git commit are following the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 Since a pre-commit hook is installed, ensure that you always commit from the project directory and the `python virtual env` is active.  
-A light-weight `venv` is created also in the root folder, for case in which only the UI is developed. 
+A light-weight `venv` is available in the `root` folder, for case in which only the UI is developed. 
+
 Once the project is bootstrap, you can activate from the project root using:
 
 ```
